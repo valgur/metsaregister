@@ -19,7 +19,7 @@ Installation
 
 .. code-block:: console
 
-    pip install https://github.com/valgur/metsaregister
+    pip install git+https://github.com/valgur/metsaregister.git
 
 Usage
 -----
