@@ -5,6 +5,8 @@ python:
   - 3.4
   - 2.7
 
+cache: pip
+
 install:
   - pip install -U pip
   - pip install .[tests]
