@@ -1,0 +1,1120 @@
+interactions:
+- request:
+    body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Length: ['278']
+      Content-Type: [application/x-www-form-urlencoded]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
+    method: POST
+    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=11&operation=fw
+  response:
+    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><obj id="285995703711"
+        label="9"><ttip>38301:002:0593 - 9</ttip><url>info.php%3Fid%3D285995703711</url><wkt>POLYGON
+        ((645792.139694762 6484340.40907041, 645802.731950552 6484348.35326225, 645815.641262295
+        6484360.76606201, 645824.247470124 6484371.52382179, 645831.364141983 6484384.92964553,
+        645837.156781867 6484397.01143728, 645825.737006094 6484404.12810914, 645806.869550469
+        6484416.5409089, 645790.153646801 6484428.29169266, 645772.444719153 6484440.37348442,
+        645763.341999334 6484448.81418826, 645755.066799499 6484455.26884413, 645751.756719564
+        6484455.10334013, 645747.45361565 6484451.29674821, 645736.861359861 6484442.02852439,
+        645725.276080091 6484428.95370865, 645733.88228792 6484418.19594886, 645759.866415403
+        6484384.10212554, 645792.139694762 6484340.40907041))</wkt></obj><obj id="285995103711"
+        label="3"><ttip>38301:002:0593 - 3</ttip><url>info.php%3Fid%3D285995103711</url><wkt>POLYGON
+        ((645682.741552936 6484497.80337128, 645689.692720798 6484472.64676378, 645725.276080091
+        6484428.95370865, 645736.861359861 6484442.02852439, 645747.45361565 6484451.29674821,
+        645751.756719564 6484455.10334013, 645755.066799499 6484455.26884413, 645763.341999334
+        6484448.81418826, 645772.444719153 6484440.37348442, 645790.153646801 6484428.29169266,
+        645806.869550469 6484416.5409089, 645825.737006094 6484404.12810914, 645837.156781867
+        6484397.01143728, 645843.776941736 6484410.74826901, 645860.823853397 6484445.66961232,
+        645871.581613183 6484467.0196279, 645884.656428923 6484494.32778735, 645891.442092789
+        6484510.21617104, 645908.323500453 6484540.33789844, 645917.922732262 6484560.03287405,
+        645900.544812608 6484568.30807388, 645883.663404943 6484575.25924174, 645866.285485289
+        6484582.3759136, 645855.196717509 6484588.33405749, 645849.404077624 6484592.8026654,
+        645837.818797854 6484604.88445715, 645836.825773874 6484610.34608905, 645829.378094022
+        6484610.18058505, 645808.028078446 6484606.87050511, 645788.664110831 6484604.38794517,
+        645778.071855042 6484589.32708146, 645769.465647213 6484573.43869778, 645761.52145537
+        6484560.69489003, 645750.267183594 6484544.97201035, 645738.350895831 6484531.23517862,
+        645724.7795681 6484518.98788286, 645711.373744367 6484509.05764306, 645700.615984581
+        6484504.25802715, 645682.741552936 6484497.80337128))</wkt></obj><obj id="285995003711"
+        label="2"><ttip>38301:002:0593 - 2</ttip><url>info.php%3Fid%3D285995003711</url><wkt>POLYGON
+        ((645668.508209219 6484550.59914623, 645682.741552936 6484497.80337128, 645700.615984581
+        6484504.25802715, 645711.373744367 6484509.05764306, 645724.7795681 6484518.98788286,
+        645738.350895831 6484531.23517862, 645750.267183594 6484544.97201035, 645761.52145537
+        6484560.69489003, 645769.465647213 6484573.43869778, 645778.071855042 6484589.32708146,
+        645788.664110831 6484604.38794517, 645766.983087262 6484614.81469696, 645740.336943791
+        6484625.73796074, 645714.683824301 6484637.8197525, 645668.508209219 6484550.59914623))</wkt></obj><obj
+        id="285995203711" label="4"><ttip>38301:002:0593 - 4</ttip><url>info.php%3Fid%3D285995203711</url><wkt>POLYGON
+        ((645917.922732262 6484560.03287405, 645926.694444088 6484581.87940161, 645936.790187887
+        6484593.96119337, 645944.23786774 6484604.55344916, 645946.72042769 6484612.497641,
+        645950.030507624 6484625.73796074, 645942.913835765 6484631.03408863, 645936.790187888
+        6484631.03408863, 645921.398316193 6484628.22052069, 645837.818797854 6484604.88445715,
+        645849.404077624 6484592.8026654, 645855.196717509 6484588.33405749, 645866.285485289
+        6484582.3759136, 645883.663404943 6484575.25924174, 645900.544812608 6484568.30807388,
+        645917.922732262 6484560.03287405))</wkt></obj><obj id="285994903711" label="1"><ttip>38301:002:0593
+        - 1</ttip><url>info.php%3Fid%3D285994903711</url><wkt>POLYGON ((645788.664110831
+        6484604.38794517, 645808.028078446 6484606.87050511, 645829.378094022 6484610.18058505,
+        645836.825773874 6484610.34608905, 645828.385070042 6484653.0461202, 645823.088942147
+        6484657.34922411, 645818.289326242 6484658.1767441, 645817.296302262 6484658.1767441,
+        645811.172654384 6484656.85271213, 645803.228462542 6484650.39805625, 645790.815662788
+        6484640.46781645, 645785.354030897 6484638.48176849, 645777.575343052 6484636.66122452,
+        645766.321071275 6484634.84068056, 645762.017967361 6484634.84068056, 645758.707887426
+        6484636.49572053, 645757.714863446 6484637.8197525, 645757.549359449 6484640.79882444,
+        645760.197423397 6484643.77789638, 645764.500527311 6484645.92944834, 645766.817583265
+        6484646.26045633, 645769.962159203 6484648.24650429, 645770.955183183 6484650.89456824,
+        645769.962159203 6484654.37015217, 645763.838511324 6484659.66628007, 645758.873391423
+        6484661.15581604, 645749.770671604 6484662.810856, 645737.192367854 6484664.13488798,
+        645728.751664022 6484664.46589597, 645714.683824301 6484637.8197525, 645740.336943791
+        6484625.73796074, 645766.983087262 6484614.81469696, 645788.664110831 6484604.38794517))</wkt></obj><obj
+        id="285996003711" label="12"><ttip>38301:002:0593 - 12</ttip><url>info.php%3Fid%3D285996003711</url><wkt>POLYGON
+        ((645779.395887015 6484143.79032232, 645790.484654795 6484159.678706, 645798.925358627
+        6484176.72561766, 645800.083886604 6484188.14539344, 645797.601326653 6484198.40664123,
+        645789.326126818 6484219.09464082, 645785.354030897 6484241.10667238, 645783.69899093
+        6484263.61521594, 645785.354030897 6484288.93732743, 645787.671086851 6484293.07492735,
+        645790.484654795 6484294.72996732, 645803.393966538 6484295.3919833, 645788.167598841
+        6484315.41796691, 645729.248176012 6484388.23972546, 645713.856304317 6484406.2796611,
+        645706.408624465 6484411.244781, 645779.395887015 6484143.79032232))</wkt></obj><total>6
+        objects</total><dbtime>0.108</dbtime><time>0.111</time></objects>'}
+    headers:
+      Cache-Control: ['max-age=1000000, must-revalidate']
+      Connection: [Keep-Alive]
+      Content-Type: [text/xml; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:37 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [public]
+      Server: [Apache]
+      Set-Cookie: [SNS=051f5934d7cb69a186c301e1a3064616; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Length: ['278']
+      Content-Type: [application/x-www-form-urlencoded]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
+    method: POST
+    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=14&operation=fw
+  response:
+    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.106</dbtime><time>0.109</time></objects>'}
+    headers:
+      Cache-Control: ['max-age=1000000, must-revalidate']
+      Connection: [Keep-Alive]
+      Content-Type: [text/xml; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:38 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [public]
+      Server: [Apache]
+      Set-Cookie: [SNS=7edac173909747e0c7c4cf7d21c80ace; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Length: ['278']
+      Content-Type: [application/x-www-form-urlencoded]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
+    method: POST
+    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=12&operation=fw
+  response:
+    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><obj id="1126788148111"
+        label="3"><ttip>38301:002:0514 - 3</ttip><url>info.php%3Fid%3D1126788148111</url><wkt>POLYGON
+        ((645748.777654869 6484262.95315433, 645704.753591742 6484424.15404713, 645640.372537018
+        6484413.06527935, 645677.445432283 6484238.7895708, 645678.934968254 6484231.67289894,
+        645679.431480244 6484231.67289894, 645716.173367515 6484236.96902684, 645717.99391148
+        6484237.13453084, 645754.404790758 6484242.26515473, 645748.777654869 6484262.95315433))</wkt></obj><obj
+        id="143246404211" label="1"><ttip>38301:002:0514 - 1</ttip><url>info.php%3Fid%3D143246404211</url><wkt>POLYGON
+        ((645526.282994209 6484438.62698806, 645525.894001428 6484438.32199722, 645520.798984498
+        6484434.33299117, 645531.495998497 6484390.83000798, 645537.298980645 6484392.2920052,
+        645537.717008254 6484392.39698564, 645630.09499084 6484411.01600823, 645640.440999635
+        6484413.10100408, 645704.763986732 6484424.18299496, 645702.41898285 6484432.46800051,
+        645695.856002771 6484455.65600302, 645639.900015481 6484525.10001055, 645618.985000554
+        6484509.5789902, 645594.510980942 6484491.41700014, 645591.273002078 6484488.9119887,
+        645526.282994209 6484438.62698806))</wkt></obj><obj id="2000000190106" label="18"><ttip>38301:002:0514
+        - 18</ttip><url>info.php%3Fid%3D2000000190106</url><wkt>MULTIPOLYGON (((645642.563
+        6484918.609, 645632.099 6484912.32, 645631.9 6484912.2, 645618.4 6484904.0,
+        645603.1 6484888.2, 645594.338 6484881.165, 645588.9 6484876.8, 645575.3 6484844.4,
+        645572.793 6484838.416, 645568.582 6484828.362, 645566.69 6484823.846, 645564.213
+        6484817.93, 645620.317 6484792.31, 645632.4 6484786.8, 645682.167 6484763.666,
+        645682.959 6484763.826, 645812.166 6484789.966, 645815.3 6484790.6, 645795.392
+        6484963.085, 645789.301 6484965.853, 645742.581 6484950.944, 645740.775 6484950.368,
+        645654.661 6484922.521, 645642.563 6484918.609)))</wkt></obj><obj id="283555601111"
+        label="20"><ttip>38301:002:0514 - 20</ttip><url>info.php%3Fid%3D283555601111</url><wkt>POLYGON
+        ((645826.730037324 6484698.39416957, 645815.31026155 6484790.57989574, 645812.165685613
+        6484789.91787975, 645682.907064175 6484763.76824827, 645682.245048188 6484763.60274427,
+        645688.368696067 6484744.40428065, 645690.354744028 6484708.82092136, 645732.227255198
+        6484692.93253768, 645746.460598915 6484690.61548172, 645761.35595862 6484691.27749771,
+        645792.470710003 6484692.27052169, 645821.268405433 6484697.40114559, 645826.730037324
+        6484698.39416957))</wkt></obj><total>4 objects</total><dbtime>0.211</dbtime><time>0.214</time></objects>'}
+    headers:
+      Cache-Control: ['max-age=1000000, must-revalidate']
+      Connection: [Keep-Alive]
+      Content-Type: [text/xml; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:38 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [public]
+      Server: [Apache]
+      Set-Cookie: [SNS=6f0ffadcfdce83723a2f7751917010d2; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=285995703711
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0593,\r\neraldis 9</title>\r\n<link href=\"./gfx/takseerkirjeldus_short.css\"\
+        \ rel=\"stylesheet\"\r\n\ttype=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n\r\n\
+        </head>\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\"\
+        \ style=\"width: 280px\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" class=\"key_value\">\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"header\"\
+        >\r\n\t\t<h1>\xDCldised takseerandmed</h1>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<th colspan=\"2\" id=\"grpHeader\">Asukoht</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<td>Maakond</td>\r\n\t\t<td>Tartu</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th>Vald</th>\r\n\t\t<td>Laeva</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Majandus\xFC\
+        ksus</th>\r\n\t\t<td>KRUUSA</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\">Eraldis</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Omandivorm</th>\r\
+        \n\t\t<td>Eramets, juriidilise isiku</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Katastritunnus</th>\r\
+        \n\t\t<td>38301:002:0593</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kvartali nr.</th>\r\
+        \n\t\t<td>-</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Eraldise nr.</th>\r\n\t\t\
+        <td>9</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Pindala (ha)</th>\r\n\t\t<td>0,6</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kaitsealuse ala pindala (ha)</th>\r\n\t\t<td>0,6</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kasvukohat\xFC\xFCp</th>\r\n\t\t<td>naadi</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Korraldaja</th>\r\n\t\t<td>Metsab\xFCroo O\xDC\
+        </td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Taks. aeg</th>\r\n\t\t<td>28.04.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Otsuse kpv</th>\r\n\t\t<td>16.06.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\">Esimene rinne</th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\">\r\n\t\t<table width=\"132\"\
+        \ border=\"0\" cellpadding=\"0\" class=\"top_header\">\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<th scope=\"col\">Liik</th>\r\n\t\t\t\t<th scope=\"col\">%</th>\r\n\t\
+        \t\t\t<th scope=\"col\">A</th>\r\n\t\t\t\t<th scope=\"col\">H</th>\r\n\t\t\
+        \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>KS</td>\r\n\t\t\t\t\t\t\t<td>75</td>\r\
+        \n\t\t\t\t\t\t\t<td>65</td>\r\n\t\t\t\t\t\t\t<td>25</td>\r\n\t\t\t\t\t\t</tr><tr>\r\
+        \n\t\t\t\t\t\t\t<td>HB</td>\r\n\t\t\t\t\t\t\t<td>15</td>\r\n\t\t\t\t\t\t\t\
+        <td>65</td>\r\n\t\t\t\t\t\t\t<td>28</td>\r\n\t\t\t\t\t\t</tr><tr>\r\n\t\t\t\
+        \t\t\t\t<td>SA</td>\r\n\t\t\t\t\t\t\t<td>5</td>\r\n\t\t\t\t\t\t\t<td>65</td>\r\
+        \n\t\t\t\t\t\t\t<td>23</td>\r\n\t\t\t\t\t\t</tr><tr>\r\n\t\t\t\t\t\t\t<td>LV</td>\r\
+        \n\t\t\t\t\t\t\t<td>5</td>\r\n\t\t\t\t\t\t\t<td>50</td>\r\n\t\t\t\t\t\t\t\
+        <td>20</td>\r\n\t\t\t\t\t\t</tr>\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n\t\
+        <tr>\r\n\t\t<th colspan=\"2\"><strong>A - puistu keskmine vanus<br />\r\n\t\
+        \tH - puistu keskmine k\xF5rgus</strong></th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th colspan=\"2\" id=\"grpHeader\"><a class=\"button1\" href=\"#\"\r\n\t\t\
+        \tonclick=\"window.print();\"><span>Prindi</span></a></th>\r\n\t</tr>\r\n\
+        </table>\r\n</div>\r\n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:39 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=f9a875695007efaa07e99cbde8c51a68; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=285995103711
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0593,\r\neraldis 3</title>\r\n<link href=\"./gfx/takseerkirjeldus_short.css\"\
+        \ rel=\"stylesheet\"\r\n\ttype=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n\r\n\
+        </head>\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\"\
+        \ style=\"width: 280px\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" class=\"key_value\">\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"header\"\
+        >\r\n\t\t<h1>\xDCldised takseerandmed</h1>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<th colspan=\"2\" id=\"grpHeader\">Asukoht</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<td>Maakond</td>\r\n\t\t<td>Tartu</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th>Vald</th>\r\n\t\t<td>Laeva</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Majandus\xFC\
+        ksus</th>\r\n\t\t<td>KRUUSA</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\">Eraldis</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Omandivorm</th>\r\
+        \n\t\t<td>Eramets, juriidilise isiku</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Katastritunnus</th>\r\
+        \n\t\t<td>38301:002:0593</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kvartali nr.</th>\r\
+        \n\t\t<td>-</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Eraldise nr.</th>\r\n\t\t\
+        <td>3</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Pindala (ha)</th>\r\n\t\t<td>2,7</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kaitsealuse ala pindala (ha)</th>\r\n\t\t<td>2,7</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kasvukohat\xFC\xFCp</th>\r\n\t\t<td>naadi</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Korraldaja</th>\r\n\t\t<td>Metsab\xFCroo O\xDC\
+        </td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Taks. aeg</th>\r\n\t\t<td>28.04.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Otsuse kpv</th>\r\n\t\t<td>16.06.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\">Esimene rinne</th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\">\r\n\t\t<table width=\"132\"\
+        \ border=\"0\" cellpadding=\"0\" class=\"top_header\">\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<th scope=\"col\">Liik</th>\r\n\t\t\t\t<th scope=\"col\">%</th>\r\n\t\
+        \t\t\t<th scope=\"col\">A</th>\r\n\t\t\t\t<th scope=\"col\">H</th>\r\n\t\t\
+        \t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th\
+        \ colspan=\"2\"><strong>A - puistu keskmine vanus<br />\r\n\t\tH - puistu\
+        \ keskmine k\xF5rgus</strong></th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\"><a class=\"button1\" href=\"#\"\r\n\t\t\tonclick=\"window.print();\"\
+        ><span>Prindi</span></a></th>\r\n\t</tr>\r\n</table>\r\n</div>\r\n</body>\r\
+        \n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:39 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=be6dc83a28c99c224c619b3e86621c3d; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=285995003711
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0593,\r\neraldis 2</title>\r\n<link href=\"./gfx/takseerkirjeldus_short.css\"\
+        \ rel=\"stylesheet\"\r\n\ttype=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n\r\n\
+        </head>\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\"\
+        \ style=\"width: 280px\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" class=\"key_value\">\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"header\"\
+        >\r\n\t\t<h1>\xDCldised takseerandmed</h1>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<th colspan=\"2\" id=\"grpHeader\">Asukoht</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<td>Maakond</td>\r\n\t\t<td>Tartu</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th>Vald</th>\r\n\t\t<td>Laeva</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Majandus\xFC\
+        ksus</th>\r\n\t\t<td>KRUUSA</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\">Eraldis</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Omandivorm</th>\r\
+        \n\t\t<td>Eramets, juriidilise isiku</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Katastritunnus</th>\r\
+        \n\t\t<td>38301:002:0593</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kvartali nr.</th>\r\
+        \n\t\t<td>-</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Eraldise nr.</th>\r\n\t\t\
+        <td>2</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Pindala (ha)</th>\r\n\t\t<td>0,9</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kaitsealuse ala pindala (ha)</th>\r\n\t\t<td>0,9</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kasvukohat\xFC\xFCp</th>\r\n\t\t<td>angervaksa</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Korraldaja</th>\r\n\t\t<td>Metsab\xFCroo O\xDC\
+        </td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Taks. aeg</th>\r\n\t\t<td>28.04.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Otsuse kpv</th>\r\n\t\t<td>16.06.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\">Esimene rinne</th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\">\r\n\t\t<table width=\"132\"\
+        \ border=\"0\" cellpadding=\"0\" class=\"top_header\">\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<th scope=\"col\">Liik</th>\r\n\t\t\t\t<th scope=\"col\">%</th>\r\n\t\
+        \t\t\t<th scope=\"col\">A</th>\r\n\t\t\t\t<th scope=\"col\">H</th>\r\n\t\t\
+        \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>SA</td>\r\n\t\t\t\t\t\t\t<td>55</td>\r\
+        \n\t\t\t\t\t\t\t<td>25</td>\r\n\t\t\t\t\t\t\t<td>10</td>\r\n\t\t\t\t\t\t</tr><tr>\r\
+        \n\t\t\t\t\t\t\t<td>LV</td>\r\n\t\t\t\t\t\t\t<td>30</td>\r\n\t\t\t\t\t\t\t\
+        <td>25</td>\r\n\t\t\t\t\t\t\t<td>12</td>\r\n\t\t\t\t\t\t</tr><tr>\r\n\t\t\t\
+        \t\t\t\t<td>KS</td>\r\n\t\t\t\t\t\t\t<td>10</td>\r\n\t\t\t\t\t\t\t<td>25</td>\r\
+        \n\t\t\t\t\t\t\t<td>11</td>\r\n\t\t\t\t\t\t</tr><tr>\r\n\t\t\t\t\t\t\t<td>LM</td>\r\
+        \n\t\t\t\t\t\t\t<td>5</td>\r\n\t\t\t\t\t\t\t<td>25</td>\r\n\t\t\t\t\t\t\t\
+        <td>10</td>\r\n\t\t\t\t\t\t</tr>\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n\t\
+        <tr>\r\n\t\t<th colspan=\"2\"><strong>A - puistu keskmine vanus<br />\r\n\t\
+        \tH - puistu keskmine k\xF5rgus</strong></th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th colspan=\"2\" id=\"grpHeader\"><a class=\"button1\" href=\"#\"\r\n\t\t\
+        \tonclick=\"window.print();\"><span>Prindi</span></a></th>\r\n\t</tr>\r\n\
+        </table>\r\n</div>\r\n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:39 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=668d397c924fab2fed6a731a86505859; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=285995203711
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0593,\r\neraldis 4</title>\r\n<link href=\"./gfx/takseerkirjeldus_short.css\"\
+        \ rel=\"stylesheet\"\r\n\ttype=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n\r\n\
+        </head>\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\"\
+        \ style=\"width: 280px\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" class=\"key_value\">\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"header\"\
+        >\r\n\t\t<h1>\xDCldised takseerandmed</h1>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<th colspan=\"2\" id=\"grpHeader\">Asukoht</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<td>Maakond</td>\r\n\t\t<td>Tartu</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th>Vald</th>\r\n\t\t<td>Laeva</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Majandus\xFC\
+        ksus</th>\r\n\t\t<td>KRUUSA</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\">Eraldis</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Omandivorm</th>\r\
+        \n\t\t<td>Eramets, juriidilise isiku</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Katastritunnus</th>\r\
+        \n\t\t<td>38301:002:0593</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kvartali nr.</th>\r\
+        \n\t\t<td>-</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Eraldise nr.</th>\r\n\t\t\
+        <td>4</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Pindala (ha)</th>\r\n\t\t<td>0,4</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kaitsealuse ala pindala (ha)</th>\r\n\t\t<td>0,4</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kasvukohat\xFC\xFCp</th>\r\n\t\t<td>naadi</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Korraldaja</th>\r\n\t\t<td>Metsab\xFCroo O\xDC\
+        </td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Taks. aeg</th>\r\n\t\t<td>28.04.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Otsuse kpv</th>\r\n\t\t<td>16.06.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\">Esimene rinne</th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\">\r\n\t\t<table width=\"132\"\
+        \ border=\"0\" cellpadding=\"0\" class=\"top_header\">\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<th scope=\"col\">Liik</th>\r\n\t\t\t\t<th scope=\"col\">%</th>\r\n\t\
+        \t\t\t<th scope=\"col\">A</th>\r\n\t\t\t\t<th scope=\"col\">H</th>\r\n\t\t\
+        \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>LV</td>\r\n\t\t\t\t\t\t\t<td>80</td>\r\
+        \n\t\t\t\t\t\t\t<td>40</td>\r\n\t\t\t\t\t\t\t<td>19</td>\r\n\t\t\t\t\t\t</tr><tr>\r\
+        \n\t\t\t\t\t\t\t<td>LM</td>\r\n\t\t\t\t\t\t\t<td>20</td>\r\n\t\t\t\t\t\t\t\
+        <td>40</td>\r\n\t\t\t\t\t\t\t<td>19</td>\r\n\t\t\t\t\t\t</tr>\t\t</table>\r\
+        \n\t\t</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\"><strong>A - puistu\
+        \ keskmine vanus<br />\r\n\t\tH - puistu keskmine k\xF5rgus</strong></th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\"><a class=\"\
+        button1\" href=\"#\"\r\n\t\t\tonclick=\"window.print();\"><span>Prindi</span></a></th>\r\
+        \n\t</tr>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:39 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=e3762d6a9ad38046035a7fe7c7307740; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=285994903711
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0593,\r\neraldis 1</title>\r\n<link href=\"./gfx/takseerkirjeldus_short.css\"\
+        \ rel=\"stylesheet\"\r\n\ttype=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n\r\n\
+        </head>\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\"\
+        \ style=\"width: 280px\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" class=\"key_value\">\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"header\"\
+        >\r\n\t\t<h1>\xDCldised takseerandmed</h1>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<th colspan=\"2\" id=\"grpHeader\">Asukoht</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<td>Maakond</td>\r\n\t\t<td>Tartu</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th>Vald</th>\r\n\t\t<td>Laeva</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Majandus\xFC\
+        ksus</th>\r\n\t\t<td>KRUUSA</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\">Eraldis</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Omandivorm</th>\r\
+        \n\t\t<td>Eramets, juriidilise isiku</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Katastritunnus</th>\r\
+        \n\t\t<td>38301:002:0593</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kvartali nr.</th>\r\
+        \n\t\t<td>-</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Eraldise nr.</th>\r\n\t\t\
+        <td>1</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Pindala (ha)</th>\r\n\t\t<td>0,4</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kaitsealuse ala pindala (ha)</th>\r\n\t\t<td>0,4</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kasvukohat\xFC\xFCp</th>\r\n\t\t<td>naadi</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Korraldaja</th>\r\n\t\t<td>Metsab\xFCroo O\xDC\
+        </td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Taks. aeg</th>\r\n\t\t<td>28.04.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Otsuse kpv</th>\r\n\t\t<td>16.06.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\">Esimene rinne</th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\">\r\n\t\t<table width=\"132\"\
+        \ border=\"0\" cellpadding=\"0\" class=\"top_header\">\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<th scope=\"col\">Liik</th>\r\n\t\t\t\t<th scope=\"col\">%</th>\r\n\t\
+        \t\t\t<th scope=\"col\">A</th>\r\n\t\t\t\t<th scope=\"col\">H</th>\r\n\t\t\
+        \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>LV</td>\r\n\t\t\t\t\t\t\t<td>100</td>\r\
+        \n\t\t\t\t\t\t\t<td>15</td>\r\n\t\t\t\t\t\t\t<td>11</td>\r\n\t\t\t\t\t\t</tr>\t\
+        \t</table>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\"><strong>A\
+        \ - puistu keskmine vanus<br />\r\n\t\tH - puistu keskmine k\xF5rgus</strong></th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\"><a class=\"\
+        button1\" href=\"#\"\r\n\t\t\tonclick=\"window.print();\"><span>Prindi</span></a></th>\r\
+        \n\t</tr>\r\n</table>\r\n</div>\r\n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:40 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=ff285a0120fb79cc51f84a2754cd0c98; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=285996003711
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0593,\r\neraldis 12</title>\r\n<link href=\"./gfx/takseerkirjeldus_short.css\"\
+        \ rel=\"stylesheet\"\r\n\ttype=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n\r\n\
+        </head>\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\"\
+        \ style=\"width: 280px\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" class=\"key_value\">\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"header\"\
+        >\r\n\t\t<h1>\xDCldised takseerandmed</h1>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<th colspan=\"2\" id=\"grpHeader\">Asukoht</th>\r\n\t</tr>\r\n\t<tr>\r\
+        \n\t\t<td>Maakond</td>\r\n\t\t<td>Tartu</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th>Vald</th>\r\n\t\t<td>Laeva</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Majandus\xFC\
+        ksus</th>\r\n\t\t<td>KRUUSA</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\">Eraldis</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Omandivorm</th>\r\
+        \n\t\t<td>Eramets, juriidilise isiku</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Katastritunnus</th>\r\
+        \n\t\t<td>38301:002:0593</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kvartali nr.</th>\r\
+        \n\t\t<td>-</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Eraldise nr.</th>\r\n\t\t\
+        <td>12</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Pindala (ha)</th>\r\n\t\t<td>0,9</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kaitsealuse ala pindala (ha)</th>\r\n\t\t<td>0,9</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Kasvukohat\xFC\xFCp</th>\r\n\t\t<td>naadi</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Korraldaja</th>\r\n\t\t<td>Metsab\xFCroo O\xDC\
+        </td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Taks. aeg</th>\r\n\t\t<td>28.04.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th>Otsuse kpv</th>\r\n\t\t<td>16.06.2009</td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"grpHeader\">Esimene rinne</th>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\">\r\n\t\t<table width=\"132\"\
+        \ border=\"0\" cellpadding=\"0\" class=\"top_header\">\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<th scope=\"col\">Liik</th>\r\n\t\t\t\t<th scope=\"col\">%</th>\r\n\t\
+        \t\t\t<th scope=\"col\">A</th>\r\n\t\t\t\t<th scope=\"col\">H</th>\r\n\t\t\
+        \t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\t\t\t<td>LV</td>\r\n\t\t\t\t\t\t\t<td>60</td>\r\
+        \n\t\t\t\t\t\t\t<td>45</td>\r\n\t\t\t\t\t\t\t<td>20</td>\r\n\t\t\t\t\t\t</tr><tr>\r\
+        \n\t\t\t\t\t\t\t<td>KS</td>\r\n\t\t\t\t\t\t\t<td>30</td>\r\n\t\t\t\t\t\t\t\
+        <td>60</td>\r\n\t\t\t\t\t\t\t<td>24</td>\r\n\t\t\t\t\t\t</tr><tr>\r\n\t\t\t\
+        \t\t\t\t<td>SA</td>\r\n\t\t\t\t\t\t\t<td>5</td>\r\n\t\t\t\t\t\t\t<td>60</td>\r\
+        \n\t\t\t\t\t\t\t<td>22</td>\r\n\t\t\t\t\t\t</tr><tr>\r\n\t\t\t\t\t\t\t<td>KU</td>\r\
+        \n\t\t\t\t\t\t\t<td>5</td>\r\n\t\t\t\t\t\t\t<td>70</td>\r\n\t\t\t\t\t\t\t\
+        <td>26</td>\r\n\t\t\t\t\t\t</tr>\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n\t\
+        <tr>\r\n\t\t<th colspan=\"2\"><strong>A - puistu keskmine vanus<br />\r\n\t\
+        \tH - puistu keskmine k\xF5rgus</strong></th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t\
+        <th colspan=\"2\" id=\"grpHeader\"><a class=\"button1\" href=\"#\"\r\n\t\t\
+        \tonclick=\"window.print();\"><span>Prindi</span></a></th>\r\n\t</tr>\r\n\
+        </table>\r\n</div>\r\n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:40 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=1dd5ef6dec2e314ca9d73e5a38a28fb2; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=1126788148111
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0514, kvartal CK181,\r\neraldis 3</title>\r\n<link href=\"gfx/takseerkirjeldus.css\"\
+        \ rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n</head>\r\
+        \n\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\">\r\n\
+        <table cellpadding=\"0\" cellspacing=\"0\" id=\"container\">\r\n\t<tr>\r\n\
+        \t\t<td class=\"title\" colspan=\"2\">\r\n\t\t<div id=\"headerleft\"></div><div\
+        \ id=\"headerright\"></div><h1>Takseerkirjeldus - katastritunnus 38301:002:0514,\
+        \ kvartal CK181,\r\n\t\teraldis 3</h1>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr class=\"\
+        box\">\r\n\t\t<td width=\"40%\">Maakond: Tartu<br />\r\n\t\tVald: Laeva<br\
+        \ />\r\n\t\t\xDCksus: Tartumaa ()</td>\r\n\t\t<td width=\"60%\">Korraldaja:\
+        \ RMK<br />\r\n\t\tTaks. kpv: 1.01.2003<br />\r\n\t\tKava kpv: <br />\r\n\t\
+        \tOtsuse kpv: 23.03.2016</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td width=\"40%\"\
+        \ class=\"overview\">Pindala: 1,3\t\tha<br />\r\n\t\tBaask\xF5rgus: 25,5<br\
+        \ />\r\n\t\tBoniteet: II<br />\r\n\t\tKuivendatud: Ei<br />\r\n\t\tKasvukoht:\
+        \ naadi<br />\r\n\t\t<br />\r\n\t\tKaitsealuse ala pindala: 0,0<br />\r\n\t\
+        \tK\xF5lviku liik: Tootlik metsamaa<br />\r\n\t\tKaitse p\xF5hjus: Hoiuala<br\
+        \ />\r\n\t\tArenguklass: Noorendik<br />\r\n\t\tTuleohu klass: keskmine tuleoht(III)</td>\r\
+        \n\t\t<td width=\"60%\" class=\"zeropadding\">\r\n\t\t<table id=\"rinnad_total\"\
+        \ cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t<tr class=\"box\">\r\n\t\t\
+        \t\t<th>Rinne</th>\r\n\t\t\t\t<th>Tagavara <br />\r\n\t\t\t\ttm</th>\r\n\t\
+        \t\t\t<th>tm/ha</th>\r\n\t\t\t\t<th>T\xE4ius</th>\r\n\t\t\t\t<th>Rinnaspindala\
+        \ m2/ha</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Esimene</td>\r\n\t\
+        \t\t\t<td align=\"right\">21</td>\r\n\t\t\t\t<td align=\"right\">16,2</td>\r\
+        \n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Teine</td>\r\n\t\t\t\t<td align=\"\
+        right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td align=\"\
+        right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t</tr>\r\n\t\
+        \t\t<tr>\r\n\t\t\t\t<td>\xDCksikpuud</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\
+        \n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td></td>\r\n\t\t\t\t<td></td>\r\
+        \n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td><strong>Maht kokku</strong></td>\r\
+        \n\t\t\t\t<td align=\"right\">21</td>\r\n\t\t\t\t<td align=\"right\">16,2</td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t\t<td></td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<td>Surnud mets</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\
+        \t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\
+        \n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Lamapuit</td>\r\n\t\t\t\t<td align=\"\
+        right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class=\"box\">\r\n\t\
+        \t\t\t<td><strong>Juurdekasv</strong></td>\r\n\t\t\t\t<td align=\"right\"\
+        >0,0</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t\
+        </tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\"><br />\r\n\t\t<table width=\"100%\"\
+        \ border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t<tr>\r\n\t\t\t\
+        \t<th>Rinne</th>\r\n\t\t\t\t<th>%</th>\r\n\t\t\t\t<th>Puuliik</th>\r\n\t\t\
+        \t\t<th>Vanus</th>\r\n\t\t\t\t<th>Jooksev<br />vanus</th>\r\n\t\t\t\t<th>H</th>\r\
+        \n\t\t\t\t<th>D</th>\r\n\t\t\t\t<th>G</th>\r\n\t\t\t\t<th>P\xE4ritolu</th>\r\
+        \n\t\t\t\t<th>maht</th>\r\n\t\t\t\t<th>maht/ha</th>\r\n\t\t\t\t<th>N</th>\r\
+        \n\t\t\t\t<th>Vr%</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t<td>* Esimene</td>\r\
+        \n\t\t<td align=\"right\">42</td>\r\n\t\t<td>Kask</td>\r\n\t\t<td align=\"\
+        right\">13</td>\r\n\t\t<td align=\"right\">14</td>\r\n\t\t<td align=\"right\"\
+        >1.8</td>\r\n\t\t<td align=\"right\">1</td>\r\n\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t<td>S</td>\r\n\t\t<td align=\"right\">9.1</td>\r\n\t\t<td align=\"right\"\
+        >7,0</td>\r\n\t\t<td align=\"right\">5851</td>\r\n\t\t<td align=\"right\"\
+        >0</td>\r\n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\"\
+        >27</td>\r\n\t\t<td>Haab</td>\r\n\t\t<td align=\"right\">13</td>\r\n\t\t<td\
+        \ align=\"right\">14</td>\r\n\t\t<td align=\"right\">2.5</td>\r\n\t\t<td align=\"\
+        right\">3</td>\r\n\t\t<td align=\"right\">0,0</td>\r\n\t\t<td>S</td>\r\n\t\
+        \t<td align=\"right\">5.2</td>\r\n\t\t<td align=\"right\">4,0</td>\r\n\t\t\
+        <td align=\"right\">3761</td>\r\n\t\t<td align=\"right\">0</td>\r\n\t    </tr><tr>\r\
+        \n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\">14</td>\r\n\t\t<td>Paju</td>\r\
+        \n\t\t<td align=\"right\">13</td>\r\n\t\t<td align=\"right\">14</td>\r\n\t\
+        \t<td align=\"right\">1.5</td>\r\n\t\t<td align=\"right\">1</td>\r\n\t\t<td\
+        \ align=\"right\">0,0</td>\r\n\t\t<td>S</td>\r\n\t\t<td align=\"right\">2.6</td>\r\
+        \n\t\t<td align=\"right\">2,0</td>\r\n\t\t<td align=\"right\">1950</td>\r\n\
+        \t\t<td align=\"right\">0</td>\r\n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\
+        \n\t\t<td align=\"right\">10</td>\r\n\t\t<td>Saar</td>\r\n\t\t<td align=\"\
+        right\">13</td>\r\n\t\t<td align=\"right\">14</td>\r\n\t\t<td align=\"right\"\
+        >2</td>\r\n\t\t<td align=\"right\">2</td>\r\n\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t<td>S</td>\r\n\t\t<td align=\"right\">2.6</td>\r\n\t\t<td align=\"right\"\
+        >2,0</td>\r\n\t\t<td align=\"right\">1393</td>\r\n\t\t<td align=\"right\"\
+        >0</td>\r\n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\"\
+        >4</td>\r\n\t\t<td>Hall lepp</td>\r\n\t\t<td align=\"right\">13</td>\r\n\t\
+        \t<td align=\"right\">14</td>\r\n\t\t<td align=\"right\">1.5</td>\r\n\t\t\
+        <td align=\"right\">1</td>\r\n\t\t<td align=\"right\">0,0</td>\r\n\t\t<td>S</td>\r\
+        \n\t\t<td align=\"right\">1.3</td>\r\n\t\t<td align=\"right\">1,0</td>\r\n\
+        \t\t<td align=\"right\">557</td>\r\n\t\t<td align=\"right\">0</td>\r\n\t \
+        \   </tr><tr>\r\n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\">2</td>\r\n\
+        \t\t<td>P\xE4rn</td>\r\n\t\t<td align=\"right\">13</td>\r\n\t\t<td align=\"\
+        right\">14</td>\r\n\t\t<td align=\"right\">1</td>\r\n\t\t<td align=\"right\"\
+        >0</td>\r\n\t\t<td align=\"right\">0,0</td>\r\n\t\t<td>S</td>\r\n\t\t<td align=\"\
+        right\">0</td>\r\n\t\t<td align=\"right\">0,0</td>\r\n\t\t<td align=\"right\"\
+        >279</td>\r\n\t\t<td align=\"right\">0</td>\r\n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\
+        \n\t\t<td align=\"right\">1</td>\r\n\t\t<td>Kuusk</td>\r\n\t\t<td align=\"\
+        right\">13</td>\r\n\t\t<td align=\"right\">14</td>\r\n\t\t<td align=\"right\"\
+        >1</td>\r\n\t\t<td align=\"right\">0</td>\r\n\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t<td>S</td>\r\n\t\t<td align=\"right\">0</td>\r\n\t\t<td align=\"right\"\
+        >0,0</td>\r\n\t\t<td align=\"right\">139</td>\r\n\t\t<td align=\"right\">0</td>\r\
+        \n\t    </tr>\t\t</table>\r\n\t\t<p>*Enamuspuuliik</p>\r\n\t\t<table width=\"\
+        100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t<tr>\r\n\
+        \t\t\t\t<th>T\xF6\xF6d</th>\r\n\t\t\t\t<th>J\xE4rjekord</th>\r\n\t\t\t\t<th>Puude\
+        \ arv</th>\r\n\t\t\t\t<th>Puuliik</th>\r\n\t\t\t\t<th>Pindala</th>\r\n\t\t\
+        \t\t<th>Aasta</th>\r\n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t<br />\r\n\t\
+        \t<table width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\
+        \n\t\t\t<tr>\r\n\t\t\t\t<th>Rinne</th>\r\n\t\t\t\t<th>Kahjustatud puuliik</th>\r\
+        \n\t\t\t\t<th>Osakaal (%)</th>\r\n\t\t\t\t<th>P\xF5hjus</th>\r\n\t\t\t\t<th>Aste</th>\r\
+        \n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\r\n\t\t<br />\r\n                <table\
+        \ width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n   \
+        \                     <tr>\r\n                                <th>Kaalutud\
+        \ keskmine vanus</th>\r\n                                <th>Kaalutud keskmine\
+        \ raievanus</th>\r\n                        </tr>\r\n\t               <tr>\r\
+        \n                                <td align=\"right\">-</td>\r\n         \
+        \                       <td align=\"right\">-</td>\r\n                   \
+        \     </tr>\r\n\t\t</table>\r\n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table\
+        \ border=\"0\" width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi\
+        \ arvestuse riiklik register, 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"\
+        ><a class=\"button1\" href=\"#\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\
+        \n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\
+        \n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:40 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=4770f5e706479c1f6e918eadb6570440; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=143246404211
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0514, kvartal CK181,\r\neraldis 1</title>\r\n<link href=\"gfx/takseerkirjeldus.css\"\
+        \ rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n</head>\r\
+        \n\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\">\r\n\
+        <table cellpadding=\"0\" cellspacing=\"0\" id=\"container\">\r\n\t<tr>\r\n\
+        \t\t<td class=\"title\" colspan=\"2\">\r\n\t\t<div id=\"headerleft\"></div><div\
+        \ id=\"headerright\"></div><h1>Takseerkirjeldus - katastritunnus 38301:002:0514,\
+        \ kvartal CK181,\r\n\t\teraldis 1</h1>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr class=\"\
+        box\">\r\n\t\t<td width=\"40%\">Maakond: Tartu<br />\r\n\t\tVald: Laeva<br\
+        \ />\r\n\t\t\xDCksus: Tartumaa ()</td>\r\n\t\t<td width=\"60%\">Korraldaja:\
+        \ RMK (Keskkonnaministeerium)<br />\r\n\t\tTaks. kpv: 31.12.2003<br />\r\n\
+        \t\tKava kpv: <br />\r\n\t\tOtsuse kpv: <span class=\"red\">kehtestamata</span></td>\r\
+        \n\t</tr>\r\n\t<tr>\r\n\t\t<td width=\"40%\" class=\"overview\">Pindala: 1,3\t\
+        \tha<br />\r\n\t\tBaask\xF5rgus: 28,4<br />\r\n\t\tBoniteet: I<br />\r\n\t\
+        \tKuivendatud: Ei<br />\r\n\t\tKasvukoht: naadi<br />\r\n\t\t<br />\r\n\t\t\
+        Kaitsealuse ala pindala: 1,3<br />\r\n\t\tK\xF5lviku liik: Tootlik metsamaa<br\
+        \ />\r\n\t\tKaitse p\xF5hjus: Teised p\xF5hjused<br />\r\n\t\tArenguklass:\
+        \ K\xFCps mets<br />\r\n\t\tTuleohu klass: v\xE4ike tuleoht(IV)</td>\r\n\t\
+        \t<td width=\"60%\" class=\"zeropadding\">\r\n\t\t<table id=\"rinnad_total\"\
+        \ cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t<tr class=\"box\">\r\n\t\t\
+        \t\t<th>Rinne</th>\r\n\t\t\t\t<th>Tagavara <br />\r\n\t\t\t\ttm</th>\r\n\t\
+        \t\t\t<th>tm/ha</th>\r\n\t\t\t\t<th>T\xE4ius</th>\r\n\t\t\t\t<th>Rinnaspindala\
+        \ m2/ha</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Esimene</td>\r\n\t\
+        \t\t\t<td align=\"right\">355</td>\r\n\t\t\t\t<td align=\"right\">273,1</td>\r\
+        \n\t\t\t\t<td align=\"right\">71</td>\r\n\t\t\t\t<td align=\"right\">23,0</td>\r\
+        \n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Teine</td>\r\n\t\t\t\t<td align=\"\
+        right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td align=\"\
+        right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t</tr>\r\n\t\
+        \t\t<tr>\r\n\t\t\t\t<td>\xDCksikpuud</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\
+        \n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td></td>\r\n\t\t\t\t<td></td>\r\
+        \n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td><strong>Maht kokku</strong></td>\r\
+        \n\t\t\t\t<td align=\"right\">355</td>\r\n\t\t\t\t<td align=\"right\">273,1</td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t\t<td></td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<td>Surnud mets</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\
+        \t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\
+        \n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Lamapuit</td>\r\n\t\t\t\t<td align=\"\
+        right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class=\"box\">\r\n\t\
+        \t\t\t<td><strong>Juurdekasv</strong></td>\r\n\t\t\t\t<td align=\"right\"\
+        >5,2</td>\r\n\t\t\t\t<td align=\"right\">4</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t\
+        </tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\"><br />\r\n\t\t<table width=\"100%\"\
+        \ border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t<tr>\r\n\t\t\t\
+        \t<th>Rinne</th>\r\n\t\t\t\t<th>%</th>\r\n\t\t\t\t<th>Puuliik</th>\r\n\t\t\
+        \t\t<th>Vanus</th>\r\n\t\t\t\t<th>Jooksev<br />vanus</th>\r\n\t\t\t\t<th>H</th>\r\
+        \n\t\t\t\t<th>D</th>\r\n\t\t\t\t<th>G</th>\r\n\t\t\t\t<th>P\xE4ritolu</th>\r\
+        \n\t\t\t\t<th>maht</th>\r\n\t\t\t\t<th>maht/ha</th>\r\n\t\t\t\t<th>N</th>\r\
+        \n\t\t\t\t<th>Vr%</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t<td>* Esimene</td>\r\
+        \n\t\t<td align=\"right\">70</td>\r\n\t\t<td>Kask</td>\r\n\t\t<td align=\"\
+        right\">75</td>\r\n\t\t<td align=\"right\">84</td>\r\n\t\t<td align=\"right\"\
+        >26</td>\r\n\t\t<td align=\"right\">23</td>\r\n\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t<td>S</td>\r\n\t\t<td align=\"right\">248.3</td>\r\n\t\t<td align=\"\
+        right\">191,0</td>\r\n\t\t<td align=\"right\">387</td>\r\n\t\t<td align=\"\
+        right\">0</td>\r\n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\n\t\t<td align=\"\
+        right\">10</td>\r\n\t\t<td>Kuusk</td>\r\n\t\t<td align=\"right\">75</td>\r\
+        \n\t\t<td align=\"right\">84</td>\r\n\t\t<td align=\"right\">26</td>\r\n\t\
+        \t<td align=\"right\">23</td>\r\n\t\t<td align=\"right\">0,0</td>\r\n\t\t\
+        <td>S</td>\r\n\t\t<td align=\"right\">35.1</td>\r\n\t\t<td align=\"right\"\
+        >27,0</td>\r\n\t\t<td align=\"right\">53</td>\r\n\t\t<td align=\"right\">0</td>\r\
+        \n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\">10</td>\r\
+        \n\t\t<td>Haab</td>\r\n\t\t<td align=\"right\">75</td>\r\n\t\t<td align=\"\
+        right\">84</td>\r\n\t\t<td align=\"right\">26</td>\r\n\t\t<td align=\"right\"\
+        >23</td>\r\n\t\t<td align=\"right\">0,0</td>\r\n\t\t<td>S</td>\r\n\t\t<td\
+        \ align=\"right\">35.1</td>\r\n\t\t<td align=\"right\">27,0</td>\r\n\t\t<td\
+        \ align=\"right\">58</td>\r\n\t\t<td align=\"right\">0</td>\r\n\t    </tr><tr>\r\
+        \n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\">10</td>\r\n\t\t<td>Saar</td>\r\
+        \n\t\t<td align=\"right\">75</td>\r\n\t\t<td align=\"right\">84</td>\r\n\t\
+        \t<td align=\"right\">26</td>\r\n\t\t<td align=\"right\">23</td>\r\n\t\t<td\
+        \ align=\"right\">0,0</td>\r\n\t\t<td>S</td>\r\n\t\t<td align=\"right\">35.1</td>\r\
+        \n\t\t<td align=\"right\">27,0</td>\r\n\t\t<td align=\"right\">56</td>\r\n\
+        \t\t<td align=\"right\">0</td>\r\n\t    </tr>\t\t</table>\r\n\t\t<p>*Enamuspuuliik</p>\r\
+        \n\t\t<table width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"\
+        0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th>T\xF6\xF6d</th>\r\n\t\t\t\t<th>J\xE4rjekord</th>\r\
+        \n\t\t\t\t<th>Puude arv</th>\r\n\t\t\t\t<th>Puuliik</th>\r\n\t\t\t\t<th>Pindala</th>\r\
+        \n\t\t\t\t<th>Aasta</th>\r\n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t<br />\r\
+        \n\t\t<table width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"\
+        0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Rinne</th>\r\n\t\t\t\t<th>Kahjustatud puuliik</th>\r\
+        \n\t\t\t\t<th>Osakaal (%)</th>\r\n\t\t\t\t<th>P\xF5hjus</th>\r\n\t\t\t\t<th>Aste</th>\r\
+        \n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\r\n\t\t<br />\r\n                <table\
+        \ width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n   \
+        \                     <tr>\r\n                                <th>Kaalutud\
+        \ keskmine vanus</th>\r\n                                <th>Kaalutud keskmine\
+        \ raievanus</th>\r\n                        </tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\
+        <td align=\"right\">84</td>\r\n\t\t\t\t<td align=\"right\">61</td>\r\n\t\t\
+        \t</tr>\r\n\t\t</table>\r\n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table border=\"\
+        0\" width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi arvestuse\
+        \ riiklik register, 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"\
+        button1\" href=\"#\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\
+        \n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\
+        \n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:41 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=883a809839551d181436cad6ac8f801c; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=2000000190106
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0514, kvartal CK163,\r\neraldis 18</title>\r\n<link href=\"gfx/takseerkirjeldus.css\"\
+        \ rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n</head>\r\
+        \n\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\">\r\n\
+        <table cellpadding=\"0\" cellspacing=\"0\" id=\"container\">\r\n\t<tr>\r\n\
+        \t\t<td class=\"title\" colspan=\"2\">\r\n\t\t<div id=\"headerleft\"></div><div\
+        \ id=\"headerright\"></div><h1>Takseerkirjeldus - katastritunnus 38301:002:0514,\
+        \ kvartal CK163,\r\n\t\teraldis 18</h1>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr class=\"\
+        box\">\r\n\t\t<td width=\"40%\">Maakond: Tartu<br />\r\n\t\tVald: Laeva<br\
+        \ />\r\n\t\t\xDCksus:  ()</td>\r\n\t\t<td width=\"60%\">Korraldaja: Riigimetsa\
+        \ Majandamise Keskus<br />\r\n\t\tTaks. kpv: 1.01.2003<br />\r\n\t\tKava kpv:\
+        \ <br />\r\n\t\tOtsuse kpv: 31.01.2017</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td\
+        \ width=\"40%\" class=\"overview\">Pindala: 3,2\t\tha<br />\r\n\t\tBaask\xF5\
+        rgus: 29,9<br />\r\n\t\tBoniteet: I<br />\r\n\t\tKuivendatud: Ei<br />\r\n\
+        \t\tKasvukoht: naadi<br />\r\n\t\t<br />\r\n\t\tKaitsealuse ala pindala: 0,0<br\
+        \ />\r\n\t\tK\xF5lviku liik: Tootlik metsamaa<br />\r\n\t\tKaitse p\xF5hjus:\
+        \ -<br />\r\n\t\tArenguklass: K\xFCps mets<br />\r\n\t\tTuleohu klass: v\xE4\
+        ike tuleoht(IV)</td>\r\n\t\t<td width=\"60%\" class=\"zeropadding\">\r\n\t\
+        \t<table id=\"rinnad_total\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t\
+        <tr class=\"box\">\r\n\t\t\t\t<th>Rinne</th>\r\n\t\t\t\t<th>Tagavara <br />\r\
+        \n\t\t\t\ttm</th>\r\n\t\t\t\t<th>tm/ha</th>\r\n\t\t\t\t<th>T\xE4ius</th>\r\
+        \n\t\t\t\t<th>Rinnaspindala m2/ha</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\
+        \t\t<td>Esimene</td>\r\n\t\t\t\t<td align=\"right\">941</td>\r\n\t\t\t\t<td\
+        \ align=\"right\">293,1</td>\r\n\t\t\t\t<td align=\"right\">72</td>\r\n\t\t\
+        \t\t<td align=\"right\">24,0</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\
+        <td>Teine</td>\r\n\t\t\t\t<td align=\"right\">157</td>\r\n\t\t\t\t<td align=\"\
+        right\">48,9</td>\r\n\t\t\t\t<td align=\"right\">30</td>\r\n\t\t\t\t<td align=\"\
+        right\">7,2</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>\xDCksikpuud</td>\r\
+        \n\t\t\t\t<td align=\"right\"></td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t\t<td></td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<td><strong>Maht kokku</strong></td>\r\n\t\t\t\t<td align=\"right\"\
+        >1098</td>\r\n\t\t\t\t<td align=\"right\">342,1</td>\r\n\t\t\t\t<td></td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Surnud mets</td>\r\
+        \n\t\t\t\t<td align=\"right\"></td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\
+        \t<tr>\r\n\t\t\t\t<td>Lamapuit</td>\r\n\t\t\t\t<td align=\"right\"></td>\r\
+        \n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\
+        \t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class=\"box\">\r\n\t\t\t\t<td><strong>Juurdekasv</strong></td>\r\
+        \n\t\t\t\t<td align=\"right\">14,8</td>\r\n\t\t\t\t<td align=\"right\">4.6</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\
+        </table>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\"><br />\r\
+        \n\t\t<table width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"\
+        0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Rinne</th>\r\n\t\t\t\t<th>%</th>\r\n\t\t\
+        \t\t<th>Puuliik</th>\r\n\t\t\t\t<th>Vanus</th>\r\n\t\t\t\t<th>Jooksev<br />vanus</th>\r\
+        \n\t\t\t\t<th>H</th>\r\n\t\t\t\t<th>D</th>\r\n\t\t\t\t<th>G</th>\r\n\t\t\t\
+        \t<th>P\xE4ritolu</th>\r\n\t\t\t\t<th>maht</th>\r\n\t\t\t\t<th>maht/ha</th>\r\
+        \n\t\t\t\t<th>N</th>\r\n\t\t\t\t<th>Vr%</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\
+        \n\t\t<td>* Esimene</td>\r\n\t\t<td align=\"right\">68</td>\r\n\t\t<td>Kask</td>\r\
+        \n\t\t<td align=\"right\">70</td>\r\n\t\t<td align=\"right\">84</td>\r\n\t\
+        \t<td align=\"right\">27</td>\r\n\t\t<td align=\"right\">25</td>\r\n\t\t<td\
+        \ align=\"right\">16,2</td>\r\n\t\t<td>S</td>\r\n\t\t<td align=\"right\">638.79</td>\r\
+        \n\t\t<td align=\"right\">199,0</td>\r\n\t\t<td align=\"right\">331</td>\r\
+        \n\t\t<td align=\"right\"></td>\r\n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\
+        \n\t\t<td align=\"right\">15</td>\r\n\t\t<td>Haab</td>\r\n\t\t<td align=\"\
+        right\">70</td>\r\n\t\t<td align=\"right\">84</td>\r\n\t\t<td align=\"right\"\
+        >27</td>\r\n\t\t<td align=\"right\">25</td>\r\n\t\t<td align=\"right\">3,7</td>\r\
+        \n\t\t<td>S</td>\r\n\t\t<td align=\"right\">141.24</td>\r\n\t\t<td align=\"\
+        right\">44,0</td>\r\n\t\t<td align=\"right\">76</td>\r\n\t\t<td align=\"right\"\
+        ></td>\r\n\t    </tr><tr>\r\n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\"\
+        >10</td>\r\n\t\t<td>Kuusk</td>\r\n\t\t<td align=\"right\">70</td>\r\n\t\t\
+        <td align=\"right\">84</td>\r\n\t\t<td align=\"right\">27</td>\r\n\t\t<td\
+        \ align=\"right\">25</td>\r\n\t\t<td align=\"right\">2,3</td>\r\n\t\t<td>S</td>\r\
+        \n\t\t<td align=\"right\">96.3</td>\r\n\t\t<td align=\"right\">30,0</td>\r\
+        \n\t\t<td align=\"right\">47</td>\r\n\t\t<td align=\"right\"></td>\r\n\t \
+        \   </tr><tr>\r\n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\">5</td>\r\n\
+        \t\t<td>Sanglepp</td>\r\n\t\t<td align=\"right\">70</td>\r\n\t\t<td align=\"\
+        right\">84</td>\r\n\t\t<td align=\"right\">27</td>\r\n\t\t<td align=\"right\"\
+        >25</td>\r\n\t\t<td align=\"right\">1,2</td>\r\n\t\t<td>S</td>\r\n\t\t<td\
+        \ align=\"right\">44.94</td>\r\n\t\t<td align=\"right\">14,0</td>\r\n\t\t\
+        <td align=\"right\">25</td>\r\n\t\t<td align=\"right\"></td>\r\n\t    </tr><tr>\r\
+        \n\t\t<td>Esimene</td>\r\n\t\t<td align=\"right\">2</td>\r\n\t\t<td>Saar</td>\r\
+        \n\t\t<td align=\"right\">70</td>\r\n\t\t<td align=\"right\">84</td>\r\n\t\
+        \t<td align=\"right\">27</td>\r\n\t\t<td align=\"right\">25</td>\r\n\t\t<td\
+        \ align=\"right\">0,5</td>\r\n\t\t<td>S</td>\r\n\t\t<td align=\"right\">19.26</td>\r\
+        \n\t\t<td align=\"right\">6,0</td>\r\n\t\t<td align=\"right\">10</td>\r\n\t\
+        \t<td align=\"right\"></td>\r\n\t    </tr><tr>\r\n\t\t<td>Teine</td>\r\n\t\
+        \t<td align=\"right\">90</td>\r\n\t\t<td>Kuusk</td>\r\n\t\t<td align=\"right\"\
+        >55</td>\r\n\t\t<td align=\"right\">69</td>\r\n\t\t<td align=\"right\">12</td>\r\
+        \n\t\t<td align=\"right\">14</td>\r\n\t\t<td align=\"right\">6,4</td>\r\n\t\
+        \t<td>S</td>\r\n\t\t<td align=\"right\">141.24</td>\r\n\t\t<td align=\"right\"\
+        >44,0</td>\r\n\t\t<td align=\"right\">417</td>\r\n\t\t<td align=\"right\"\
+        ></td>\r\n\t    </tr><tr>\r\n\t\t<td>Teine</td>\r\n\t\t<td align=\"right\"\
+        >10</td>\r\n\t\t<td>Saar</td>\r\n\t\t<td align=\"right\">55</td>\r\n\t\t<td\
+        \ align=\"right\">69</td>\r\n\t\t<td align=\"right\">12</td>\r\n\t\t<td align=\"\
+        right\">14</td>\r\n\t\t<td align=\"right\">0,8</td>\r\n\t\t<td>S</td>\r\n\t\
+        \t<td align=\"right\">16.05</td>\r\n\t\t<td align=\"right\">5,0</td>\r\n\t\
+        \t<td align=\"right\">51</td>\r\n\t\t<td align=\"right\"></td>\r\n\t    </tr>\t\
+        \t</table>\r\n\t\t<p>*Enamuspuuliik</p>\r\n\t\t<table width=\"100%\" border=\"\
+        1\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th>T\xF6\
+        \xF6d</th>\r\n\t\t\t\t<th>J\xE4rjekord</th>\r\n\t\t\t\t<th>Puude arv</th>\r\
+        \n\t\t\t\t<th>Puuliik</th>\r\n\t\t\t\t<th>Pindala</th>\r\n\t\t\t\t<th>Aasta</th>\r\
+        \n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t<br />\r\n\t\t<table width=\"100%\"\
+        \ border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t<tr>\r\n\t\t\t\
+        \t<th>Rinne</th>\r\n\t\t\t\t<th>Kahjustatud puuliik</th>\r\n\t\t\t\t<th>Osakaal\
+        \ (%)</th>\r\n\t\t\t\t<th>P\xF5hjus</th>\r\n\t\t\t\t<th>Aste</th>\r\n\t\t\t\
+        </tr>\r\n\t\t\t\t\t</table>\r\n\r\n\t\t<br />\r\n                <table width=\"\
+        100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n             \
+        \           <tr>\r\n                                <th>Kaalutud keskmine\
+        \ vanus</th>\r\n                                <th>Kaalutud keskmine raievanus</th>\r\
+        \n                        </tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td align=\"right\"\
+        >84</td>\r\n\t\t\t\t<td align=\"right\">60</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\
+        \n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table border=\"0\" width=\"100%\">\r\
+        \n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi arvestuse riiklik register,\
+        \ 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"button1\" href=\"\
+        #\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\n\t\t\t</tr>\r\
+        \n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\n</body>\r\n\
+        </html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:42 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=0c12c1f2fbe44c7636b5999c61e31e4d; path=/]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info.php?id=283555601111
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Takseerkirjeldus - katastritunnus\
+        \ 38301:002:0514, kvartal CK163,\r\neraldis 20</title>\r\n<link href=\"gfx/takseerkirjeldus.css\"\
+        \ rel=\"stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\"\
+        >\r\nfunction resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+70;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n</head>\r\
+        \n\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\">\r\n\
+        <table cellpadding=\"0\" cellspacing=\"0\" id=\"container\">\r\n\t<tr>\r\n\
+        \t\t<td class=\"title\" colspan=\"2\">\r\n\t\t<div id=\"headerleft\"></div><div\
+        \ id=\"headerright\"></div><h1>Takseerkirjeldus - katastritunnus 38301:002:0514,\
+        \ kvartal CK163,\r\n\t\teraldis 20</h1>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr class=\"\
+        box\">\r\n\t\t<td width=\"40%\">Maakond: Tartu<br />\r\n\t\tVald: Laeva<br\
+        \ />\r\n\t\t\xDCksus: Tartumaa ()</td>\r\n\t\t<td width=\"60%\">Korraldaja:\
+        \ RMK<br />\r\n\t\tTaks. kpv: 1.01.2003<br />\r\n\t\tKava kpv: <br />\r\n\t\
+        \tOtsuse kpv: 2.12.2009</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td width=\"40%\"\
+        \ class=\"overview\">Pindala: 1,0\t\tha<br />\r\n\t\tBaask\xF5rgus: 29,3<br\
+        \ />\r\n\t\tBoniteet: I<br />\r\n\t\tKuivendatud: Ei<br />\r\n\t\tKasvukoht:\
+        \ naadi<br />\r\n\t\t<br />\r\n\t\tKaitsealuse ala pindala: 0,0<br />\r\n\t\
+        \tK\xF5lviku liik: Tootlik metsamaa<br />\r\n\t\tKaitse p\xF5hjus: Hoiuala<br\
+        \ />\r\n\t\tArenguklass: K\xFCps mets<br />\r\n\t\tTuleohu klass: v\xE4ike\
+        \ tuleoht(IV)</td>\r\n\t\t<td width=\"60%\" class=\"zeropadding\">\r\n\t\t\
+        <table id=\"rinnad_total\" cellpadding=\"0\" cellspacing=\"0\">\r\n\t\t\t\
+        <tr class=\"box\">\r\n\t\t\t\t<th>Rinne</th>\r\n\t\t\t\t<th>Tagavara <br />\r\
+        \n\t\t\t\ttm</th>\r\n\t\t\t\t<th>tm/ha</th>\r\n\t\t\t\t<th>T\xE4ius</th>\r\
+        \n\t\t\t\t<th>Rinnaspindala m2/ha</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\
+        \t\t<td>Esimene</td>\r\n\t\t\t\t<td align=\"right\">240</td>\r\n\t\t\t\t<td\
+        \ align=\"right\">240,0</td>\r\n\t\t\t\t<td align=\"right\">62</td>\r\n\t\t\
+        \t\t<td align=\"right\">19,6</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\
+        <td>Teine</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\t<td align=\"\
+        right\">0,0</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\t<td align=\"\
+        right\">0,0</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>\xDCksikpuud</td>\r\
+        \n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t\t<td></td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\
+        \t\t\t<td><strong>Maht kokku</strong></td>\r\n\t\t\t\t<td align=\"right\"\
+        >240</td>\r\n\t\t\t\t<td align=\"right\">240,0</td>\r\n\t\t\t\t<td></td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Surnud mets</td>\r\
+        \n\t\t\t\t<td align=\"right\">0</td>\r\n\t\t\t\t<td align=\"right\">0,0</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\
+        \t<tr>\r\n\t\t\t\t<td>Lamapuit</td>\r\n\t\t\t\t<td align=\"right\">0</td>\r\
+        \n\t\t\t\t<td align=\"right\">0,0</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\
+        \t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class=\"box\">\r\n\t\t\t\t<td><strong>Juurdekasv</strong></td>\r\
+        \n\t\t\t\t<td align=\"right\">3,2</td>\r\n\t\t\t\t<td align=\"right\">3.2</td>\r\
+        \n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t\t<td>&nbsp;</td>\r\n\t\t\t</tr>\r\n\t\t\
+        </table>\r\n\t\t</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\"><br />\r\
+        \n\t\t<table width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"\
+        0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Rinne</th>\r\n\t\t\t\t<th>%</th>\r\n\t\t\
+        \t\t<th>Puuliik</th>\r\n\t\t\t\t<th>Vanus</th>\r\n\t\t\t\t<th>Jooksev<br />vanus</th>\r\
+        \n\t\t\t\t<th>H</th>\r\n\t\t\t\t<th>D</th>\r\n\t\t\t\t<th>G</th>\r\n\t\t\t\
+        \t<th>P\xE4ritolu</th>\r\n\t\t\t\t<th>maht</th>\r\n\t\t\t\t<th>maht/ha</th>\r\
+        \n\t\t\t\t<th>N</th>\r\n\t\t\t\t<th>Vr%</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr>\r\
+        \n\t\t<td>* Esimene</td>\r\n\t\t<td align=\"right\">100</td>\r\n\t\t<td>Kask</td>\r\
+        \n\t\t<td align=\"right\">76</td>\r\n\t\t<td align=\"right\">84</td>\r\n\t\
+        \t<td align=\"right\">27</td>\r\n\t\t<td align=\"right\">28</td>\r\n\t\t<td\
+        \ align=\"right\">0,0</td>\r\n\t\t<td>S</td>\r\n\t\t<td align=\"right\">240</td>\r\
+        \n\t\t<td align=\"right\">240,0</td>\r\n\t\t<td align=\"right\">318</td>\r\
+        \n\t\t<td align=\"right\">0</td>\r\n\t    </tr>\t\t</table>\r\n\t\t<p>*Enamuspuuliik</p>\r\
+        \n\t\t<table width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"\
+        0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th>T\xF6\xF6d</th>\r\n\t\t\t\t<th>J\xE4rjekord</th>\r\
+        \n\t\t\t\t<th>Puude arv</th>\r\n\t\t\t\t<th>Puuliik</th>\r\n\t\t\t\t<th>Pindala</th>\r\
+        \n\t\t\t\t<th>Aasta</th>\r\n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\t\t<br />\r\
+        \n\t\t<table width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"\
+        0\">\r\n\t\t\t<tr>\r\n\t\t\t\t<th>Rinne</th>\r\n\t\t\t\t<th>Kahjustatud puuliik</th>\r\
+        \n\t\t\t\t<th>Osakaal (%)</th>\r\n\t\t\t\t<th>P\xF5hjus</th>\r\n\t\t\t\t<th>Aste</th>\r\
+        \n\t\t\t</tr>\r\n\t\t\t\t\t</table>\r\n\r\n\t\t<br />\r\n                <table\
+        \ width=\"100%\" border=\"1\" cellpadding=\"0\" cellspacing=\"0\">\r\n   \
+        \                     <tr>\r\n                                <th>Kaalutud\
+        \ keskmine vanus</th>\r\n                                <th>Kaalutud keskmine\
+        \ raievanus</th>\r\n                        </tr>\r\n\t\t\t<tr>\r\n\t\t\t\t\
+        <td align=\"right\">84</td>\r\n\t\t\t\t<td align=\"right\">60</td>\r\n\t\t\
+        \t</tr>\r\n\t\t</table>\r\n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table border=\"\
+        0\" width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi arvestuse\
+        \ riiklik register, 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"\
+        button1\" href=\"#\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\
+        \n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\
+        \n</body>\r\n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 17:09:43 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+      Set-Cookie: [SNS=716323c2ce4cb93e7c9c0361c60d25dd; path=/]
+    status: {code: 200, message: OK}
+version: 1

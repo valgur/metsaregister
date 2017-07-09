@@ -228,7 +228,7 @@ def parse_takseer(info):
     -------
     pandas.Series
     """
-    if 'Üldised takseerandmed' in info:
+    if u'Üldised takseerandmed' in info:
         return parse_short_takseer(info)
     else:
         return parse_full_takseer(info)

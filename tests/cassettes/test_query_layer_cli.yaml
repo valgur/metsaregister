@@ -1,0 +1,34 @@
+interactions:
+- request:
+    body: !!python/unicode srs=EPSG%3A3301&requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Length: ['278']
+      Content-Type: [application/x-www-form-urlencoded]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
+    method: POST
+    uri: http://register.metsad.ee/avalik/flashconf.php?layer_id=10&operation=fw&in=objects
+  response:
+    body: {string: !!python/unicode '<?xml version="1.0" encoding="UTF-8"?><objects><total>0
+        objects</total><dbtime>0.095</dbtime><time>0.100</time></objects>'}
+    headers:
+      cache-control: ['max-age=1000000, must-revalidate']
+      connection: [Keep-Alive]
+      content-type: [text/xml; charset=UTF-8]
+      date: ['Sun, 09 Jul 2017 17:03:00 GMT']
+      expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      keep-alive: ['timeout=15, max=100']
+      pragma: [public]
+      server: [Apache]
+      set-cookie: [SNS=15612b4c4c65aad14943989cb33ac093; path=/]
+    status: {code: 200, message: OK}
+version: 1

@@ -2,6 +2,8 @@
 
 """Console script for metsaregister."""
 
+from __future__ import print_function
+
 import click
 import geopandas as gpd
 from shapely.ops import cascaded_union
@@ -37,6 +39,7 @@ The result is saved as a GeoJSON file.""")
 @click.argument('layer_id', type=str)
 @click.argument('out_path', type=str)
 def query_layer(aoi, layer_id, out_path):
+
     aoi = _read_aoi(aoi)
     gdf = metsaregister.query_layer(aoi, layer_id)
     with open(out_path, 'w', encoding='utf8') as f:
