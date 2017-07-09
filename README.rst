@@ -6,6 +6,9 @@ metsaregister
 .. image:: https://img.shields.io/travis/valgur/metsaregister.svg
         :target: https://travis-ci.org/valgur/metsaregister
 
+.. image:: https://codecov.io/gh/valgur/metsaregister/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/valgur/metsaregister
+
 
 
 A Python utility to retrieve information from the Estonian Forest Registry.

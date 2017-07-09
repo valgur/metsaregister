@@ -9,4 +9,8 @@ install:
   - pip install .[tests]
   - pip install -r requirements_dev.txt
 
-script: coverage run --source=metsaregister -m py.test -v
+script:
+  - coverage run --source=metsaregister -m py.test -v
+
+after_success:
+  - codecov
