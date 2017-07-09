@@ -8,7 +8,7 @@ python:
 cache: pip
 
 install:
-  - pip install -U pip pytest
+  - pip install -U pip pytest codecov
   - pip install .[test]
   - pip install -r requirements_dev.txt
 
