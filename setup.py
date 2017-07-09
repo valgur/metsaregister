@@ -20,6 +20,7 @@ requirements = [
     'lxml',
     'xmltodict',
     'babel',
+    'tqdm',
     'geopandas',
     'pandas',
     'shapely'
