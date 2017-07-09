@@ -1,0 +1,115 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.17.3]
+    method: GET
+    uri: http://register.metsad.ee/avalik/flashconf.php?in=layers
+  response:
+    body: {string: "<?xml version=\"1.0\" encoding=\"UTF-8\"?><groups><group Gid=\"\
+        1\" name=\"Kihid\"><layer Lid=\"10\" min_zoom=\"9\" name=\"Teatis\" url=\"\
+        flashconf.php%3Fin%3Dobjects%26layer_id%3D10\" reloadEachTime=\"1\" defaultChecked=\"\
+        0\" symbol=\"area\" style=\"mellow_blue\" highlightedStyle=\"mellow_blue_highlight\"\
+        \ onRollOver=\"tooltip\" onClick=\"openurl\" /><layer Lid=\"14\" min_zoom=\"\
+        9\" name=\"Eraldised Eramets: t\xE4iskirjeldus\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D14\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"magenta\"\
+        \ highlightedStyle=\"magenta_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" showLabels=\"1\" /><layer Lid=\"11\" min_zoom=\"9\" name=\"Eraldised\
+        \ Eramets: osaline kirjeldus\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D11\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"1\" symbol=\"area\" style=\"green1\"\
+        \ highlightedStyle=\"green1_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" showLabels=\"1\" /><layer Lid=\"12\" min_zoom=\"9\" name=\"Eraldised\
+        \ RMK\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D12\" reloadEachTime=\"\
+        1\" defaultChecked=\"1\" symbol=\"area\" style=\"green2\" highlightedStyle=\"\
+        green2_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\" showLabels=\"\
+        1\" /><layer Lid=\"13\" min_zoom=\"10\" name=\"Katastrid\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D13\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"1\" symbol=\"area\" style=\"white\"\
+        \ highlightedStyle=\"white_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\"\
+        \ /></group><group Gid=\"2\" name=\"Piirangud\"><layer Lid=\"213\" min_zoom=\"\
+        5\" name=\"Kaitseala\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D213\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"blue\"\
+        \ highlightedStyle=\"blue_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\"\
+        \ /><layer Lid=\"212\" min_zoom=\"6\" name=\"V\xE4\xE4riselupaik\" url=\"\
+        flashconf.php%3Fin%3Dobjects%26layer_id%3D212\" reloadEachTime=\"1\" defaultChecked=\"\
+        0\" symbol=\"area\" style=\"sign_yellow\" highlightedStyle=\"sign_yellow_highlight\"\
+        \ onRollOver=\"tooltip\" onClick=\"openurl\" /><layer Lid=\"22\" min_zoom=\"\
+        4\" name=\"Hoiualad\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D22\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"orange\"\
+        \ highlightedStyle=\"orange_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /><layer Lid=\"23\" min_zoom=\"4\" name=\"Hooldatav sihtkaitsev\xF6\
+        \xF6nd\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D23\" reloadEachTime=\"\
+        1\" defaultChecked=\"0\" symbol=\"area\" style=\"gray\" highlightedStyle=\"\
+        gray_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\" /><layer Lid=\"\
+        24\" min_zoom=\"4\" name=\"Natura linnualad\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D24\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"magenta\"\
+        \ highlightedStyle=\"magenta_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /><layer Lid=\"25\" min_zoom=\"4\" name=\"Natura loodusala\" url=\"\
+        flashconf.php%3Fin%3Dobjects%26layer_id%3D25\" reloadEachTime=\"1\" defaultChecked=\"\
+        0\" symbol=\"area\" style=\"liblue\" highlightedStyle=\"liblue_highlight\"\
+        \ onRollOver=\"tooltip\" onClick=\"openurl\" /><layer Lid=\"261\" min_zoom=\"\
+        4\" name=\"Vooluvee kalda piiranguv\xF6\xF6nd\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D261\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"navblue\"\
+        \ highlightedStyle=\"navblue_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /><layer Lid=\"262\" min_zoom=\"4\" name=\"J\xE4rve kalda piiranguv\xF6\
+        \xF6nd\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D262\" reloadEachTime=\"\
+        1\" defaultChecked=\"0\" symbol=\"area\" style=\"navblue\" highlightedStyle=\"\
+        navblue_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\" /><layer Lid=\"\
+        27\" min_zoom=\"4\" name=\"Looduslik sihtkaitsev\xF6\xF6nd\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D27\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"yellow\"\
+        \ highlightedStyle=\"yellow_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /><layer Lid=\"28\" min_zoom=\"4\" name=\"Piiranguv\xF6\xF6nd\"\
+        \ url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D28\" reloadEachTime=\"1\"\
+        \ defaultChecked=\"0\" symbol=\"area\" style=\"violet\" highlightedStyle=\"\
+        violet_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\" /><layer Lid=\"\
+        29\" min_zoom=\"6\" name=\"!P\xFCsielupaigad\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D29\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"brown\"\
+        \ highlightedStyle=\"brown_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\"\
+        \ /><layer Lid=\"210\" min_zoom=\"6\" name=\"Reservaat\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D210\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"red1\"\
+        \ highlightedStyle=\"red1_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\"\
+        \ /><layer Lid=\"216\" min_zoom=\"6\" name=\"Jahipiirkonnad\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D216\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"red3\"\
+        \ highlightedStyle=\"red3_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\"\
+        \ /><layer Lid=\"217\" min_zoom=\"6\" name=\"Natura toetused\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D217\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"red3\"\
+        \ highlightedStyle=\"red3_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\"\
+        \ /><layer Lid=\"215\" min_zoom=\"5\" name=\"!1. kat loomad\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D215\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"full_red\"\
+        \ highlightedStyle=\"full_red_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /></group><group Gid=\"4\" name=\"Teemakaart\"><layer Lid=\"401\"\
+        \ min_zoom=\"9\" name=\"V\xF5imalike uuendusraiete kaart\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D401\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"red\"\
+        \ highlightedStyle=\"red_highlight\" onRollOver=\"tooltip\" onClick=\"openurl\"\
+        \ /></group><group Gid=\"3\" name=\"Puidu kokkuost\"><layer Lid=\"311\" min_zoom=\"\
+        4\" name=\"Kogu sortiment\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D311\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"mellow_blue\"\
+        \ highlightedStyle=\"mellow_blue_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /><layer Lid=\"312\" min_zoom=\"4\" name=\"K\xFCttepuit\" url=\"\
+        flashconf.php%3Fin%3Dobjects%26layer_id%3D312\" reloadEachTime=\"1\" defaultChecked=\"\
+        0\" symbol=\"area\" style=\"mellow_blue\" highlightedStyle=\"mellow_blue_highlight\"\
+        \ onRollOver=\"tooltip\" onClick=\"openurl\" /><layer Lid=\"313\" min_zoom=\"\
+        4\" name=\"Muu puit\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D313\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"mellow_blue\"\
+        \ highlightedStyle=\"mellow_blue_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /><layer Lid=\"314\" min_zoom=\"4\" name=\"Paberipuit\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D314\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"mellow_blue\"\
+        \ highlightedStyle=\"mellow_blue_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /><layer Lid=\"315\" min_zoom=\"4\" name=\"Palk\" url=\"flashconf.php%3Fin%3Dobjects%26layer_id%3D315\"\
+        \ reloadEachTime=\"1\" defaultChecked=\"0\" symbol=\"area\" style=\"mellow_blue\"\
+        \ highlightedStyle=\"mellow_blue_highlight\" onRollOver=\"tooltip\" onClick=\"\
+        openurl\" /></group></groups>"}
+    headers:
+      Cache-Control: ['max-age=1000000, must-revalidate']
+      Connection: [Keep-Alive]
+      Content-Type: [text/xml; charset=UTF-8]
+      Date: ['Sun, 09 Jul 2017 15:47:05 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [public]
+      Server: [Apache]
+      Set-Cookie: [SNS=c7a43d13b1094c0d07dcb03af61fbacd; path=/]
+    status: {code: 200, message: OK}
+version: 1

@@ -1,0 +1,7 @@
+bumpversion
+coverage
+Sphinx
+pytest
+pytest-runner
+pytest-vcr
+pytest-cov
