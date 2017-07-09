@@ -2,6 +2,7 @@ from os.path import abspath, dirname, join
 
 import pytest
 from click.testing import CliRunner
+import geopandas as gpd
 
 from metsaregister import cli
 
@@ -36,13 +37,9 @@ def test_forest_stands(tmpdir):
     expected_result_path = join(fixtures_dir, 'result_stands.geojson')
     runner.invoke(cli.cli, ['forest_stands', aoi_path, result_path])
 
-    with open(result_path, encoding='utf8') as f:
-        result = f.read()
-
-    with open(expected_result_path, encoding='utf8') as f:
-        expected = f.read()
-
-    assert result == expected
+    gdf_result = gpd.read_file(result_path)
+    gdf_expected = gpd.read_file(expected_result_path)
+    assert gdf_expected.equals(gdf_result)
 
 
 @pytest.mark.vcr
@@ -52,10 +49,6 @@ def test_query_layer(tmpdir):
     expected_result_path = join(fixtures_dir, 'result_layer10.geojson')
     runner.invoke(cli.cli, ['query_layer', aoi_path, '10', result_path])
 
-    with open(result_path, encoding='utf8') as f:
-        result = f.read()
-
-    with open(expected_result_path, encoding='utf8') as f:
-        expected = f.read()
-
-    assert result == expected
+    gdf_result = gpd.read_file(result_path)
+    gdf_expected = gpd.read_file(expected_result_path)
+    assert gdf_expected.equals(gdf_result)
