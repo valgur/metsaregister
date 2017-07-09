@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import re
 from collections import OrderedDict
 
@@ -12,7 +14,6 @@ from lxml import etree
 from retrying import retry
 from six import StringIO
 from six.moves.urllib.parse import unquote, urljoin
-
 from tqdm import tqdm
 
 liigikoodid = {
@@ -248,7 +249,7 @@ def query_forest_stands(aoi):
     layer_ids = [
         11,  # Eraldised Eramets: osaline kirjeldus
         14,  # Eraldised Eramets: täiskirjeldus
-        12   # Eraldised RMK
+        12  # Eraldised RMK
     ]
 
     dfs = []

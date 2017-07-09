@@ -1,14 +1,14 @@
+# -*- coding: utf-8 -*-
+
 from os.path import abspath, dirname, join
 
+import geopandas as gpd
 import pytest
 from click.testing import CliRunner
-import geopandas as gpd
 
 from metsaregister import cli
 
-
 assert pytest.config.pluginmanager.hasplugin('vcr')
-
 
 tests_dir = dirname(abspath(__file__))
 fixtures_dir = join(tests_dir, 'fixtures')
