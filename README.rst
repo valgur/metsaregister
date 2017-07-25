@@ -18,6 +18,8 @@ If you don't need detailed information about each forest stand then the `ShapeFi
 Installation
 ------------
 
+Python 3.4+ is required.
+
 .. code-block:: console
 
     pip install git+https://github.com/valgur/metsaregister.git
