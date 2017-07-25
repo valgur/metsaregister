@@ -53,9 +53,12 @@ Takes a vector file containing the area of interest as input. Must be in L-EST97
 The result is saved as a GeoJSON file.""")
 @click.argument('aoi', type=str)
 @click.argument('out_path', type=str)
-def forest_stands(aoi, out_path):
+@click.option('--wait', default=0.5, type=float,
+              help="Time to wait in seconds between querying each stand's information "
+                   "to not overload the server. Defaults to 0.5 s.")
+def forest_stands(aoi, out_path, wait):
     aoi = _read_aoi(aoi)
-    gdf = metsaregister.query_forest_stands(aoi)
+    gdf = metsaregister.query_forest_stands(aoi, wait)
     with open(out_path, 'w', encoding='utf8') as f:
         f.write(gdf.to_json())
 

@@ -45,7 +45,7 @@ def test_forest_stands_cli(tmpdir):
     expected_result_path = join(fixtures_dir, 'result_stands.geojson')
 
     runner = CliRunner()
-    runner.invoke(cli.cli, ['forest_stands', aoi_path, result_path])
+    runner.invoke(cli.cli, ['forest_stands', aoi_path, result_path, '--wait', '0.1'])
 
     gdf_result = gpd.read_file(result_path)
     gdf_expected = gpd.read_file(expected_result_path)

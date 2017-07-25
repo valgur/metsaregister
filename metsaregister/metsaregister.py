@@ -2,6 +2,7 @@
 
 import re
 from collections import OrderedDict
+from time import sleep
 
 import geopandas as gpd
 import pandas as pd
@@ -16,7 +17,7 @@ from six import StringIO
 from six.moves.urllib.parse import unquote, urljoin
 from tqdm import tqdm
 
-liigikoodid = {
+species_codes = {
     # Trees
     'MA': 'mänd',
     'KU': 'kuusk',
@@ -52,18 +53,33 @@ liigikoodid = {
     'TP': 'teised põõsaliigid'
 }
 
+session = requests.Session()
+session.headers.update({
+    'Pragma': 'no-cache',
+    'Origin': 'http://register.metsad.ee',
+    'Accept-Encoding': 'gzip, deflate',
+    'Accept-Language': 'en-US,en;q=0.8,et;q=0.6',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
+    'Content-Type': 'application/x-www-form-urlencoded',
+    'Accept': '*/*',
+    'Cache-Control': 'no-cache',
+    'X-Requested-With': 'ShockwaveFlash/26.0.0.131',
+    'Connection': 'keep-alive',
+    'Referer': 'http://register.metsad.ee/avalik/flash/map.swf',
+})
+
 
 def get_layers():
     """Returns the list of available layers as a dictionary of layer name -> layer ID."""
     layers = OrderedDict()
-    layers_xml = requests.get("http://register.metsad.ee/avalik/flashconf.php?in=layers").content
+    layers_xml = session.get("http://register.metsad.ee/avalik/flashconf.php?in=layers").content
     root = etree.fromstring(layers_xml)
     for layer in root.xpath('//layer'):
         layers[layer.get('name')] = layer.get('Lid')
     return layers
 
 
-@retry(wait_exponential_multiplier=1000, wait_exponential_max=60000)
+@retry(wait_exponential_multiplier=1000, stop_max_delay=30000)
 def query_layer(aoi, layer_id=10):
     """
     Return the features of the given layer that intersect with the given area of interest.
@@ -79,19 +95,6 @@ def query_layer(aoi, layer_id=10):
     -------
     geopandas.GeoDataFrame
     """
-    headers = {
-        'Pragma': 'no-cache',
-        'Origin': 'http://register.metsad.ee',
-        'Accept-Encoding': 'gzip, deflate',
-        'Accept-Language': 'en-US,en;q=0.8,et;q=0.6',
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36',
-        'Content-Type': 'application/x-www-form-urlencoded',
-        'Accept': '*/*',
-        'Cache-Control': 'no-cache',
-        'X-Requested-With': 'ShockwaveFlash/26.0.0.131',
-        'Connection': 'keep-alive',
-        'Referer': 'http://register.metsad.ee/avalik/flash/map.swf',
-    }
 
     params = {'in': 'objects',
               'layer_id': str(layer_id),
@@ -100,7 +103,7 @@ def query_layer(aoi, layer_id=10):
     data = {'requestArea': aoi,
             'srs': 'EPSG:3301'}
 
-    r = requests.post('http://register.metsad.ee/avalik/flashconf.php', headers=headers, params=params, data=data)
+    r = session.post('http://register.metsad.ee/avalik/flashconf.php', params=params, data=data)
     crs = {'init': 'epsg:3301'}
     if ">0 objects<" in r.text:
         return gpd.GeoDataFrame(crs=crs)
@@ -119,12 +122,12 @@ def query_layer(aoi, layer_id=10):
     return gdf
 
 
-@retry(wait_exponential_multiplier=1000, wait_exponential_max=60000)
+@retry(wait_exponential_multiplier=1000, stop_max_delay=30000)
 def get_info(url):
     """Fetch the content of a feature's information page."""
     if 'metsad.ee' not in url:
         url = urljoin('http://register.metsad.ee/avalik/', url)
-    txt = requests.get(url).text
+    txt = session.get(url).text
     txt = txt.replace('\r\n', '\n').strip()
     txt = re.sub('\s*<script[^>]*>.+</script>\s*', '', txt, flags=re.DOTALL)
     txt = txt.replace("""
@@ -192,7 +195,8 @@ def parse_short_takseer(info):
     for tbl in tables[::-1]:
         # Make nested tables independent
         tbl.extract()
-    s = pd.read_html(StringIO(str(tables[0])), thousands=' ', decimal=',')[0].set_index(0).iloc[:, 0]
+    s = pd.read_html(StringIO(str(tables[0])),
+                     thousands=' ', decimal=',')[0].set_index(0).iloc[:, 0]
     s.name = None
     s.index.name = None
     s['Täiskirjeldusega'] = False
@@ -202,11 +206,11 @@ def parse_short_takseer(info):
     kooslus = pd.read_html(StringIO(str(tables[1])), header=0, thousands=' ', decimal=',')[0]
     if len(kooslus) == 0:
         return s
-    s['Pealiik'] = liigikoodid[kooslus.loc[kooslus['%'].idxmax(), 'Liik']]
+    s['Pealiik'] = species_codes[kooslus.loc[kooslus['%'].idxmax(), 'Liik']]
     s['Kõrgus'] = (kooslus['H'] * kooslus['%']).sum() / 100
     s['Vanus'] = (kooslus['A'] * kooslus['%']).sum() / 100
     for idx, row in kooslus.iterrows():
-        liik = liigikoodid[row['Liik']]
+        liik = species_codes[row['Liik']]
         s[liik + ' %'] = row['%']
         s[liik + ' H'] = row['H']
         s[liik + ' A'] = row['A']
@@ -234,13 +238,16 @@ def parse_takseer(info):
         return parse_full_takseer(info)
 
 
-def query_forest_stands(aoi):
+def query_forest_stands(aoi, wait=0.5):
     """Retrieves the forest stands and their information as a GeoDataFrame.
 
     Parameters
     ----------
     aoi : str
         A WKT string of the area of interest.
+    wait : float
+        Time to wait between running a subquery for each forest stand. This acts as a rate limit
+        to not overly stress the server.
 
     Returns
     -------
@@ -260,6 +267,7 @@ def query_forest_stands(aoi):
     for id, url in tqdm(list(df.url.iteritems())):
         txt = get_info(url)
         infos[id] = parse_takseer(txt)
+        sleep(wait)
     info_df = pd.concat(infos.values(), axis=1).transpose()
     info_df.index = list(infos)
     info_df[info_df == '-'] = float('nan')
