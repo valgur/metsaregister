@@ -11,9 +11,9 @@ metsaregister
 
 
 
-An unofficial Python API and command line utility to retrieve information from the `Estonian Forest Registry <http://register.metsad.ee/avalik/>`_. Provides functionality to fetch the geometries inside an area of interest for each vector layer, each feature's metadata in HTML and also the option to parse the main details for features in a forest stand layer.
+An unofficial Python API and command line utility to retrieve information from the `Estonian Forest Registry <http://register.metsad.ee/avalik/>`_. Provides functionality to fetch the geometries for any vector layer and to scrape the main information for forest stand or forest notification features as a GeoDataFrame or a GeoJSON file.
 
-If you don't need detailed information about each forest stand then the `ShapeFile layers for each county <http://www.keskkonnaagentuur.ee/et/kaardikihid>`_, which are updated once per month, are a better alternative to consider.
+If you don't need detailed information about each forest stand then the `ShapeFile layers for the forest stands within each county <http://www.keskkonnaagentuur.ee/et/kaardikihid>`_, which are updated once per month, are a better alternative.
 
 Installation
 ------------
@@ -40,9 +40,10 @@ Use ``--help`` to get more information about the available commands.
       --help  Show this message and exit.
 
     Commands:
-      forest_stands  Query and save forest stands' information for...
-      list           List available layers and their IDs
-      get_layer    Query layer's features intersecting with a...
+      forest_notifications  Fetch and save forest notifications'...
+      forest_stands         Fetch and save forest stands' information for...
+      get_layer             Get any layer's features intersecting with a...
+      list                  List available layers and their IDs
 
 Available layers
 ----------------
