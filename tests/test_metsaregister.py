@@ -135,7 +135,7 @@ def test_query_layer_cli(tmpdir):
     gdf_result = gpd.read_file(result_path)
     assert gdf_result.crs == {'init': 'epsg:3301'}
     gdf_expected = gpd.read_file(expected_result_path)
-    assert gdf_expected.equals(gdf_result)
+    assert str(gdf_expected) == str(gdf_result)
 
 
 @pytest.mark.vcr
@@ -161,7 +161,7 @@ def test_forest_stands_cli(tmpdir):
     gdf_result = gpd.read_file(result_path)
     assert gdf_result.crs == {'init': 'epsg:3301'}
     gdf_expected = gpd.read_file(expected_result_path)
-    assert gdf_expected.equals(gdf_result)
+    assert str(gdf_expected) == str(gdf_result)
 
 
 @pytest.mark.vcr
@@ -177,4 +177,4 @@ def test_forest_notifications_cli(tmpdir):
     gdf_result = gpd.read_file(result_path)
     assert gdf_result.crs == {'init': 'epsg:3301'}
     gdf_expected = gpd.read_file(expected_result_path)
-    assert gdf_expected.equals(gdf_result)
+    assert str(gdf_expected) == str(gdf_result)
