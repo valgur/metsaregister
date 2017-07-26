@@ -16,6 +16,13 @@ def _read_aoi(aoi_path):
     return cascaded_union(list(gdf.geometry)).wkt
 
 
+def _add_crs(json):
+    return json.replace(
+        '"type": "FeatureCollection",',
+        '"type": "FeatureCollection", '
+        '"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3301" } },')
+
+
 @click.group()
 def cli():
     return
@@ -28,7 +35,7 @@ def list_layers():
         print(id, name, sep='\t')
 
 
-@cli.command(help="""Query layer's features intersecting with a given AOI.
+@cli.command(help="""Get any layer's features intersecting with a given AOI.
 
 Takes a vector file containing the area of interest as input. Must be in L-EST97 CRS.
 
@@ -36,17 +43,16 @@ For a list of available layers and their IDs see the 'list' command.
 
 The result is saved as a GeoJSON file.""")
 @click.argument('aoi', type=str)
-@click.argument('layer_id', type=str)
+@click.argument('layer_id', type=int)
 @click.argument('out_path', type=str)
-def query_layer(aoi, layer_id, out_path):
-
+def get_layer(aoi, layer_id, out_path):
     aoi = _read_aoi(aoi)
     gdf = metsaregister.query_layer(aoi, layer_id)
     with open(out_path, 'w', encoding='utf8') as f:
-        f.write(gdf.to_json())
+        f.write(_add_crs(gdf.to_json()))
 
 
-@cli.command(help="""Query and save forest stands' information for a given AOI.
+@cli.command(help="""Fetch and save forest stands' information for a given AOI.
 
 Takes a vector file containing the area of interest as input. Must be in L-EST97 CRS.
 
@@ -60,7 +66,24 @@ def forest_stands(aoi, out_path, wait):
     aoi = _read_aoi(aoi)
     gdf = metsaregister.query_forest_stands(aoi, wait)
     with open(out_path, 'w', encoding='utf8') as f:
-        f.write(gdf.to_json())
+        f.write(_add_crs(gdf.to_json()))
+
+
+@cli.command(help="""Fetch and save forest notifications' information for a given AOI.
+
+Takes a vector file containing the area of interest as input. Must be in L-EST97 CRS.
+
+The result is saved as a GeoJSON file.""")
+@click.argument('aoi', type=str)
+@click.argument('out_path', type=str)
+@click.option('--wait', default=0.5, type=float,
+              help="Time to wait in seconds between querying each stand's information "
+                   "to not overload the server. Defaults to 0.5 s.")
+def forest_notifications(aoi, out_path, wait):
+    aoi = _read_aoi(aoi)
+    gdf = metsaregister.query_forest_notifications(aoi, wait)
+    with open(out_path, 'w', encoding='utf8') as f:
+        f.write(_add_crs(gdf.to_json()))
 
 
 if __name__ == "__main__":

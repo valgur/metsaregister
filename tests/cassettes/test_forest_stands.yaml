@@ -9,37 +9,7 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['278']
       Content-Type: [application/x-www-form-urlencoded]
-      Origin: ['http://register.metsad.ee']
-      Pragma: [no-cache]
-      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
-      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
-      X-Requested-With: [ShockwaveFlash/26.0.0.131]
-    method: POST
-    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=11&operation=fw
-  response:
-    body: {string: Error. No connection to database}
-    headers:
-      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
-      Connection: [Keep-Alive]
-      Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:05 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
-      Pragma: [no-cache]
-      Server: [Apache]
-      Set-Cookie: [SNS=8f339eb9700fac3e4c5c465f02418bf2; path=/]
-    status: {code: 200, message: OK}
-- request:
-    body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
-      Cache-Control: [no-cache]
-      Connection: [keep-alive]
-      Content-Length: ['278']
-      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -113,17 +83,16 @@ interactions:
         645790.484654795 6484294.72996732, 645803.393966538 6484295.3919833, 645788.167598841
         6484315.41796691, 645729.248176012 6484388.23972546, 645713.856304317 6484406.2796611,
         645706.408624465 6484411.244781, 645779.395887015 6484143.79032232))</wkt></obj><total>6
-        objects</total><dbtime>0.114</dbtime><time>0.119</time></objects>'}
+        objects</total><dbtime>0.128</dbtime><time>0.134</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:08 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:40 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
       Keep-Alive: ['timeout=15, max=100']
       Pragma: [public]
       Server: [Apache]
-      Set-Cookie: [SNS=f940cc029697660b115535e2b908bbe1; path=/]
     status: {code: 200, message: OK}
 - request:
     body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
@@ -135,6 +104,7 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['278']
       Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -144,79 +114,16 @@ interactions:
     method: POST
     uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=14&operation=fw
   response:
-    body: {string: Error. No connection to database}
-    headers:
-      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
-      Connection: [Keep-Alive]
-      Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:08 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
-      Pragma: [no-cache]
-      Server: [Apache]
-      Set-Cookie: [SNS=9f5aa28f035ab9ccb0631372f0d3065e; path=/]
-    status: {code: 200, message: OK}
-- request:
-    body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
-      Cache-Control: [no-cache]
-      Connection: [keep-alive]
-      Content-Length: ['278']
-      Content-Type: [application/x-www-form-urlencoded]
-      Origin: ['http://register.metsad.ee']
-      Pragma: [no-cache]
-      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
-      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
-      X-Requested-With: [ShockwaveFlash/26.0.0.131]
-    method: POST
-    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=14&operation=fw
-  response:
-    body: {string: Error. No connection to database}
-    headers:
-      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
-      Connection: [Keep-Alive]
-      Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:10 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
-      Pragma: [no-cache]
-      Server: [Apache]
-      Set-Cookie: [SNS=fc8e7b8de65793bdd1f4dba5a2c4f021; path=/]
-    status: {code: 200, message: OK}
-- request:
-    body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
-      Cache-Control: [no-cache]
-      Connection: [keep-alive]
-      Content-Length: ['278']
-      Content-Type: [application/x-www-form-urlencoded]
-      Origin: ['http://register.metsad.ee']
-      Pragma: [no-cache]
-      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
-      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
-      X-Requested-With: [ShockwaveFlash/26.0.0.131]
-    method: POST
-    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=14&operation=fw
-  response:
-    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.116</dbtime><time>0.122</time></objects>'}
+    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.103</dbtime><time>0.108</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:14 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:40 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=99']
       Pragma: [public]
       Server: [Apache]
-      Set-Cookie: [SNS=25ae7462d83d6811c3fae49f0c9852a0; path=/]
     status: {code: 200, message: OK}
 - request:
     body: requestArea=POLYGON+%28%28645666.1073256923+6484836.582757207%2C+645828.1793946003+6484815.670231932%2C+645982.4092658773+6484739.862329132%2C+645757.5996229086+6484360.822814591%2C+645590.2994226285+6484441.858848704%2C+645666.1073256923+6484836.582757207%29%29&srs=EPSG%3A3301
@@ -228,6 +135,7 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['278']
       Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -265,25 +173,33 @@ interactions:
         645688.368696067 6484744.40428065, 645690.354744028 6484708.82092136, 645732.227255198
         6484692.93253768, 645746.460598915 6484690.61548172, 645761.35595862 6484691.27749771,
         645792.470710003 6484692.27052169, 645821.268405433 6484697.40114559, 645826.730037324
-        6484698.39416957))</wkt></obj><total>4 objects</total><dbtime>0.230</dbtime><time>0.236</time></objects>'}
+        6484698.39416957))</wkt></obj><total>4 objects</total><dbtime>0.211</dbtime><time>0.217</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:15 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:41 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=98']
       Pragma: [public]
       Server: [Apache]
-      Set-Cookie: [SNS=35f8044c25a7be18a5299ab9b34725e1; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=285995703711
   response:
@@ -343,20 +259,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:15 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:41 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=97']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=7d9df45de1a2cf262362a221e5ebb2e5; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=285995103711
   response:
@@ -409,20 +333,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:16 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:41 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=96']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=b681f60eb07445289b151f216e5a3119; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=285995003711
   response:
@@ -482,20 +414,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:16 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:42 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=95']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=39cb5a673883f66b86a1f598e734a25f; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=285995203711
   response:
@@ -551,20 +491,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:16 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:42 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=94']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=a1157fd4ac64cfcfb06f443dc3cf8014; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=285994903711
   response:
@@ -618,20 +566,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:16 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:42 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=93']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=841a65e626bcdc3084e879ccb5338493; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=285996003711
   response:
@@ -691,20 +647,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:17 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:43 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=92']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=07ce5be6ed57764a8cac4911216339ce; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=1126788148111
   response:
@@ -824,7 +788,7 @@ interactions:
         \                       <td align=\"right\">-</td>\r\n                   \
         \     </tr>\r\n\t\t</table>\r\n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table\
         \ border=\"0\" width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi\
-        \ arvestuse riiklik register, 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"\
+        \ arvestuse riiklik register, 26.07.2017</td>\r\n\t\t\t\t<td align=\"right\"\
         ><a class=\"button1\" href=\"#\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\
         \n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\
         \n</body>\r\n</html>\r\n"}
@@ -832,20 +796,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:17 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:43 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=91']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=39fc217fba283c05a575790afed85a46; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=143246404211
   response:
@@ -948,7 +920,7 @@ interactions:
         <td align=\"right\">84</td>\r\n\t\t\t\t<td align=\"right\">61</td>\r\n\t\t\
         \t</tr>\r\n\t\t</table>\r\n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table border=\"\
         0\" width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi arvestuse\
-        \ riiklik register, 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"\
+        \ riiklik register, 26.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"\
         button1\" href=\"#\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\
         \n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\
         \n</body>\r\n</html>\r\n"}
@@ -956,20 +928,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:17 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:44 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=90']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=a2afe120a2c87ba989953cc58805be8e; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=2000000190106
   response:
@@ -1089,7 +1069,7 @@ interactions:
         >84</td>\r\n\t\t\t\t<td align=\"right\">60</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\
         \n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table border=\"0\" width=\"100%\">\r\
         \n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi arvestuse riiklik register,\
-        \ 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"button1\" href=\"\
+        \ 26.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"button1\" href=\"\
         #\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\n\t\t\t</tr>\r\
         \n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\n</body>\r\n\
         </html>\r\n"}
@@ -1097,20 +1077,28 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:18 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:44 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=89']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=c12362ac01fdbe7e2a4340ab18ff8512; path=/]
     status: {code: 200, message: OK}
 - request:
     body: null
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/info.php?id=283555601111
   response:
@@ -1195,7 +1183,7 @@ interactions:
         <td align=\"right\">84</td>\r\n\t\t\t\t<td align=\"right\">60</td>\r\n\t\t\
         \t</tr>\r\n\t\t</table>\r\n\r\n\t\t<p>M\xE4rkused: </p>\r\n\t\t<table border=\"\
         0\" width=\"100%\">\r\n\t\t\t<tr>\r\n\t\t\t\t<td>Allikas: metsaressursi arvestuse\
-        \ riiklik register, 09.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"\
+        \ riiklik register, 26.07.2017</td>\r\n\t\t\t\t<td align=\"right\"><a class=\"\
         button1\" href=\"#\" onclick=\"window.print();\"><span>Prindi</span></a></td>\r\
         \n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n</table>\r\n</div>\r\
         \n</body>\r\n</html>\r\n"}
@@ -1203,11 +1191,10 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:18 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:44 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
+      Keep-Alive: ['timeout=15, max=88']
       Pragma: [no-cache]
       Server: [Apache]
-      Set-Cookie: [SNS=8384d2ad2f54cbe4ab18d8fa0f358ed7; path=/]
     status: {code: 200, message: OK}
 version: 1

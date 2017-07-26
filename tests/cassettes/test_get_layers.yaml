@@ -4,8 +4,16 @@ interactions:
     headers:
       Accept: ['*/*']
       Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
       Connection: [keep-alive]
-      User-Agent: [python-requests/2.17.3]
+      Content-Type: [application/x-www-form-urlencoded]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: GET
     uri: http://register.metsad.ee/avalik/flashconf.php?in=layers
   response:
@@ -105,11 +113,11 @@ interactions:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 15:47:05 GMT']
+      Date: ['Wed, 26 Jul 2017 15:31:40 GMT']
       Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
       Keep-Alive: ['timeout=15, max=100']
       Pragma: [public]
       Server: [Apache]
-      Set-Cookie: [SNS=c7a43d13b1094c0d07dcb03af61fbacd; path=/]
+      Set-Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376; path=/]
     status: {code: 200, message: OK}
 version: 1

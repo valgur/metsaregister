@@ -1,0 +1,91 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [application/x-www-form-urlencoded]
+      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
+    method: GET
+    uri: http://register.metsad.ee/avalik/info_teatis.php?too_id=3533008401
+  response:
+    body: {string: "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\"\
+        \ \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\r\n<html xmlns=\"\
+        http://www.w3.org/1999/xhtml\">\r\n<head>\r\n<meta http-equiv=\"Content-Type\"\
+        \ content=\"text/html; charset=utf-8\" />\r\n<title>Metsateatis 2940008401</title>\r\
+        \n<link href=\"./gfx/takseerkirjeldus_short.css\" rel=\"stylesheet\"\r\n\t\
+        type=\"text/css\" />\r\n<link href=\"./style_info/mmk/teatis.css\" rel=\"\
+        stylesheet\" type=\"text/css\" />\r\n<script type=\"text/javascript\">\r\n\
+        function resizeWinTo( idOfDiv ) {\r\n\tvar height = document.getElementById(\"\
+        content\").offsetHeight+75;\r\n\tvar width = document.getElementById(\"content\"\
+        ).offsetWidth+30;\r\n\t//alert(\"w:\"+width+\" h:\"+height);\r\n\twindow.resizeTo(width,height);\r\
+        \n}\r\nwindow.focus();\r\n</script>\r\n<script type=\"text/javascript\">\r\
+        \n\r\n  var _gaq = _gaq || [];\r\n  _gaq.push(['_setAccount', 'UA-22776325-1']);\r\
+        \n  _gaq.push(['_trackPageview']);\r\n\r\n  (function() {\r\n    var ga =\
+        \ document.createElement('script'); ga.type = 'text/javascript'; ga.async\
+        \ = true;\r\n    ga.src = ('https:' == document.location.protocol ? 'https://ssl'\
+        \ : 'http://www') + '.google-analytics.com/ga.js';\r\n    var s = document.getElementsByTagName('script')[0];\
+        \ s.parentNode.insertBefore(ga, s);\r\n  })();\r\n\r\n</script>\r\n\r\n\r\n\
+        </head>\r\n<body onload=\"resizeWinTo('content');\">\r\n<div id=\"content\"\
+        \ style=\"width: 290px\">\r\n<table border=\"0\" cellspacing=\"0\" cellpadding=\"\
+        0\" class=\"key_value\">\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"header\"\
+        >\r\n\t\t<h1>\xDCldised andmed</h1>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\
+        \t<th colspan=\"2\" id=\"grpHeader\">Asukoht</th>\r\n\t</tr>\r\n\t<tr>\r\n\
+        \t\t<td>Maakond</td>\r\n\t\t<td>Tartu</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Vald</th>\r\
+        \n\t\t<td>Puhja</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Majandus\xFCksus</th>\r\
+        \n\t\t<td>Neebum\xE4e</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"\
+        grpHeader\">Teatis</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Reg. nr.</th>\r\n\t\
+        \t<td>2940008401</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th>Registreeritud kpv</th>\r\
+        \n\t\t<td>5.09.2016</td>\r\n\t</tr><!--\r\n\t<tr>\r\n\t\t<th>Kehtiv</th>\r\
+        \n\t\t<td>Jah</td>\r\n\t</tr>-->\r\n\t<tr>\r\n\t\t<th>Kehtiv alates</th>\r\
+        \n\t\t<td>19.09.2016</td>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"2\" id=\"\
+        grpHeader\">T\xF6\xF6d</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<td colspan=\"2\"\
+        >\r\n\t\t<table width=\"132\" border=\"0\" cellpadding=\"0\" class=\"top_header\"\
+        >\r\n\t\t\t<tr>\r\n\t\t\t\t<th scope=\"col\">Katastri nr</th>\r\n\t\t\t\t\
+        <th scope=\"col\">Kvartal</th>\r\n\t\t\t\t<th scope=\"col\">Er</th>\r\n\t\t\
+        \t\t<th scope=\"col\">P</th>\r\n\t\t\t\t<th scope=\"col\">T\xF6\xF6</th>\r\
+        \n\t\t\t\t<th scope=\"col\">Luba</th>\r\n\t\t\t</tr>\r\n\t\t\t<tr >\r\n\t\t\
+        \t\t<td>60502:003:0341</td>\r\n\t\t\t\t<td></td>\r\n\t\t\t\t<td>1</td>\r\n\
+        \t\t\t\t<td>.5</td>\r\n\t\t\t\t<td>harvendusraie 29 tm\t\t\t\t</td>\r\n\t\t\
+        \t\t<td>Jah</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr >\r\n\t\t\t\t<td>60502:003:0341</td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t\t<td>3</td>\r\n\t\t\t\t<td>.5</td>\r\n\t\t\t\
+        \t<td>lageraie 98 tm\t\t\t\t</td>\r\n\t\t\t\t<td>Jah</td>\r\n\t\t\t</tr>\r\
+        \n\t\t\t<tr >\r\n\t\t\t\t<td>60502:003:0341</td>\r\n\t\t\t\t<td></td>\r\n\t\
+        \t\t\t<td>4</td>\r\n\t\t\t\t<td>.9</td>\r\n\t\t\t\t<td>lageraie 177 tm\t\t\
+        \t\t</td>\r\n\t\t\t\t<td>Jah</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr >\r\n\t\t\t\t\
+        <td>60502:003:0341</td>\r\n\t\t\t\t<td></td>\r\n\t\t\t\t<td>5</td>\r\n\t\t\
+        \t\t<td>.8</td>\r\n\t\t\t\t<td>harvendusraie 24 tm\t\t\t\t</td>\r\n\t\t\t\t\
+        <td>Jah</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr >\r\n\t\t\t\t<td>60502:003:0341</td>\r\
+        \n\t\t\t\t<td></td>\r\n\t\t\t\t<td>6</td>\r\n\t\t\t\t<td>.9</td>\r\n\t\t\t\
+        \t<td>lageraie 251 tm\t\t\t\t</td>\r\n\t\t\t\t<td>Ei</td>\r\n\t\t\t</tr>\r\
+        \n\t\t\t<tr >\r\n\t\t\t\t<td>60502:003:0341</td>\r\n\t\t\t\t<td></td>\r\n\t\
+        \t\t\t<td>7</td>\r\n\t\t\t\t<td>1.7</td>\r\n\t\t\t\t<td>harvendusraie 97 tm\t\
+        \t\t\t</td>\r\n\t\t\t\t<td>Jah</td>\r\n\t\t\t</tr>\r\n\t\t\t<tr class=\"selected_row\"\
+        \ >\r\n\t\t\t\t<td>60502:003:0341</td>\r\n\t\t\t\t<td></td>\r\n\t\t\t\t<td>8</td>\r\
+        \n\t\t\t\t<td>.5</td>\r\n\t\t\t\t<td>lageraie 132 tm\t\t\t\t</td>\r\n\t\t\t\
+        \t<td>Jah</td>\r\n\t\t\t</tr>\r\n\t\t</table>\r\n\t\t</td>\r\n\t</tr>\r\n\t\
+        <tr>\r\n\t\t<th colspan=\"2\">\r\n\t\t\t<strong>Er - eraldis<br />\r\n\t\t\
+        \t\tP - pindala</strong>\r\n\t\t</th>\r\n\t</tr>\r\n\t<tr>\r\n\t\t<th colspan=\"\
+        2\" id=\"grpHeader\"><a class=\"button1\" href=\"#\"\r\n\t\t\tonclick=\"window.print();\"\
+        ><span>Prindi</span></a></th>\r\n\t</tr>\r\n</table>\r\n</div>\r\n</body>\r\
+        \n</html>\r\n"}
+    headers:
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
+      Connection: [Keep-Alive]
+      Content-Type: [text/html; charset=UTF-8]
+      Date: ['Wed, 26 Jul 2017 15:31:46 GMT']
+      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Keep-Alive: ['timeout=15, max=100']
+      Pragma: [no-cache]
+      Server: [Apache]
+    status: {code: 200, message: OK}
+version: 1

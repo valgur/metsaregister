@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import re
+import warnings
 from collections import OrderedDict
 from time import sleep
 
@@ -54,6 +55,7 @@ species_codes = {
 }
 
 session = requests.Session()
+
 session.headers.update({
     'Pragma': 'no-cache',
     'Origin': 'http://register.metsad.ee',
@@ -75,7 +77,7 @@ def get_layers():
     layers_xml = session.get("http://register.metsad.ee/avalik/flashconf.php?in=layers").content
     root = etree.fromstring(layers_xml)
     for layer in root.xpath('//layer'):
-        layers[layer.get('name')] = layer.get('Lid')
+        layers[layer.get('name')] = int(layer.get('Lid'))
     return layers
 
 
@@ -139,12 +141,21 @@ def get_info(url):
     return txt
 
 
-def parse_full_takseer(info):
+def _extract_tables(info):
     soup = BeautifulSoup(info, "lxml")
     tables = soup.find_all('table')
+    for th in soup.find_all('th'):
+        # Remove unnecessary headers
+        if th.get('colspan') == '2':
+            th.extract()
     for tbl in tables[::-1]:
         # Make nested tables independent
         tbl.extract()
+    return tables
+
+
+def parse_full_inventory_info(info):
+    tables = _extract_tables(info)
     txt = tables[0].text
     d = OrderedDict()
     d['Katastritunnus'] = re.search(r'katastritunnus ([^,\s]+)', txt).group(1)
@@ -186,17 +197,24 @@ def parse_full_takseer(info):
     return s
 
 
-def parse_short_takseer(info):
-    soup = BeautifulSoup(info, "lxml")
-    tables = soup.find_all('table')
-    for th in soup.find_all('th'):
-        if th.get('colspan') == '2':
-            th.extract()
-    for tbl in tables[::-1]:
-        # Make nested tables independent
-        tbl.extract()
-    s = pd.read_html(StringIO(str(tables[0])),
-                     thousands=' ', decimal=',')[0].set_index(0).iloc[:, 0]
+def parse_short_inventory_info(info):
+    """
+    Parse the information returned for forest stands.
+    Returns the main information for the stands and the information of the first tree level by species.
+
+    Parameters
+    ----------
+    info : str
+        The HTML content of forest stand's information page
+
+    Returns
+    -------
+    pandas.Series
+    """
+    tables = _extract_tables(info)
+    s = (pd.read_html(StringIO(str(tables[0])), thousands=' ', decimal=',')[0]
+         .set_index(0)
+         .iloc[:, 0])
     s.name = None
     s.index.name = None
     s['Täiskirjeldusega'] = False
@@ -218,9 +236,9 @@ def parse_short_takseer(info):
     return s
 
 
-def parse_takseer(info):
+def parse_inventory_info(info):
     """
-    Parse the information returned for forest stands.
+    Parse the information returned for forest stands (eraldised).
     Returns the main information for the stands and the information of the first tree level by species.
 
     Parameters
@@ -233,13 +251,80 @@ def parse_takseer(info):
     pandas.Series
     """
     if u'Üldised takseerandmed' in info:
-        return parse_short_takseer(info)
+        return parse_short_inventory_info(info)
     else:
-        return parse_full_takseer(info)
+        return parse_full_inventory_info(info)
+
+
+def parse_forest_notifications(info):
+    """
+    Parse the information returned for a forest notifications (metsateatised) polygon.
+    Only the information regarding this single polygon is returned rather than the full list
+    provided in the forest notification.
+
+    Parameters
+    ----------
+    info : str
+        The HTML content of forest notification's information page
+
+    Returns
+    -------
+    pandas.Series
+    """
+    tables = _extract_tables(info)
+    general_s = (pd.read_html(StringIO(str(tables[0])), thousands=' ', decimal=',')[0]
+                 .set_index(0)
+                 .iloc[:, 0])
+    for row in tables[1].find_all('tr'):
+        # Extract the single highlighted row
+        if row.get('class') != ['selected_row'] and not row.find('th'):
+            row.extract()
+    works_s = (pd.read_html(StringIO(str(tables[1])), header=0, thousands=' ', decimal=',')[0]
+               .iloc[0])
+    # Make the Töö field more useful by extracting the amount
+    work = works_s['Töö']
+    try:
+        work_type, amount, unit = work.split()
+        if unit != 'tm':
+            raise AssertionError()
+        works_s['Töö'] = work_type
+        works_s['Maht (tm)'] = float(amount)
+    except:
+        works_s['Töö'] = work
+        works_s['Maht (tm)'] = float('nan')
+    return general_s.append(works_s)
+
+
+def _query_with_info(layer_ids, aoi, parser, wait):
+    dfs = []
+    for id in layer_ids:
+        dfs.append(query_layer(aoi, id))
+    df = pd.concat(dfs)
+    if df.shape[0] == 0:
+        return df
+    infos = {}
+    for id, url in tqdm(list(df.url.iteritems())):
+        txt = get_info(url)
+        infos[id] = parser(txt)
+        sleep(wait)
+    info_df = pd.concat(infos.values(), axis=1).transpose()
+    info_df.index = list(infos)
+    info_df[info_df == '-'] = float('nan')
+    merged = df.join(info_df)
+    merged.index.name = 'id'
+    merged.reset_index().drop(['url'], axis=1)
+    with warnings.catch_warnings():
+        # Not converting the numeric values from objects to numeric will cause issues when
+        # writing the GeoDataFrame to file.
+        # There is no good substitute for the deprecated convert_objects() right now.
+        # A future pandas release will have a suitable .infer_objects() method.
+        warnings.simplefilter("ignore", category=DeprecationWarning)
+        merged = merged.convert_objects()
+    return merged
 
 
 def query_forest_stands(aoi, wait=0.5):
-    """Retrieves the forest stands and their information as a GeoDataFrame.
+    """Retrieves the forest stands (eraldised) and their information as a GeoDataFrame.
 
     Parameters
     ----------
@@ -258,20 +343,22 @@ def query_forest_stands(aoi, wait=0.5):
         14,  # Eraldised Eramets: täiskirjeldus
         12  # Eraldised RMK
     ]
+    return _query_with_info(layer_ids, aoi, parse_inventory_info, wait)
 
-    dfs = []
-    for id in layer_ids:
-        dfs.append(query_layer(aoi, id))
-    df = pd.concat(dfs)
-    infos = {}
-    for id, url in tqdm(list(df.url.iteritems())):
-        txt = get_info(url)
-        infos[id] = parse_takseer(txt)
-        sleep(wait)
-    info_df = pd.concat(infos.values(), axis=1).transpose()
-    info_df.index = list(infos)
-    info_df[info_df == '-'] = float('nan')
-    merged = df.join(info_df)
-    merged.index.name = 'id'
-    merged.reset_index().drop(['url'], axis=1)
-    return merged
+
+def query_forest_notifications(aoi, wait=0.5):
+    """Retrieves the forest notifications (metsateatised) and their information as a GeoDataFrame.
+
+    Parameters
+    ----------
+    aoi : str
+        A WKT string of the area of interest.
+    wait : float
+        Time to wait between running a subquery for each forest stand. This acts as a rate limit
+        to not overly stress the server.
+
+    Returns
+    -------
+    geopandas.GeoDataFrame
+    """
+    return _query_with_info([10], aoi, parse_forest_notifications, wait)
