@@ -9,7 +9,6 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['89']
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -19,15 +18,13 @@ interactions:
     method: POST
     uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=11&operation=fw
   response:
-    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.188</dbtime><time>0.190</time></objects>'}
+    body: {string: Error. No connection to database}
     headers:
-      Cache-Control: ['max-age=1000000, must-revalidate']
+      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
-      Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:31:45 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
+      Content-Type: [text/html; charset=UTF-8]
       Keep-Alive: ['timeout=15, max=100']
-      Pragma: [public]
+      Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}
 - request:
@@ -40,7 +37,6 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['89']
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -48,15 +44,13 @@ interactions:
           like Gecko) Chrome/59.0.3071.115 Safari/537.36']
       X-Requested-With: [ShockwaveFlash/26.0.0.131]
     method: POST
-    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=14&operation=fw
+    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=11&operation=fw
   response:
-    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.115</dbtime><time>0.118</time></objects>'}
+    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.076</dbtime><time>0.082</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:31:45 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
       Keep-Alive: ['timeout=15, max=99']
       Pragma: [public]
       Server: [Apache]
@@ -71,7 +65,34 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['89']
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
+      Origin: ['http://register.metsad.ee']
+      Pragma: [no-cache]
+      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
+      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
+      X-Requested-With: [ShockwaveFlash/26.0.0.131]
+    method: POST
+    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=14&operation=fw
+  response:
+    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.109</dbtime><time>0.112</time></objects>'}
+    headers:
+      Cache-Control: ['max-age=1000000, must-revalidate']
+      Connection: [Keep-Alive]
+      Content-Type: [text/xml; charset=UTF-8]
+      Keep-Alive: ['timeout=15, max=98']
+      Pragma: [public]
+      Server: [Apache]
+    status: {code: 200, message: OK}
+- request:
+    body: requestArea=POLYGON+%28%2830+10%2C+40+40%2C+20+40%2C+10+20%2C+30+10%29%29&srs=EPSG%3A3301
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Length: ['89']
+      Content-Type: [application/x-www-form-urlencoded]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -81,14 +102,12 @@ interactions:
     method: POST
     uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=12&operation=fw
   response:
-    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.073</dbtime><time>0.075</time></objects>'}
+    body: {string: '<?xml version="1.0" encoding="UTF-8"?><objects><total>0 objects</total><dbtime>0.201</dbtime><time>0.204</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:31:46 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=98']
+      Keep-Alive: ['timeout=15, max=97']
       Pragma: [public]
       Server: [Apache]
     status: {code: 200, message: OK}

@@ -12,7 +12,7 @@ install:
   - pip install -r requirements_dev.txt
 
 script:
-  - coverage run --source=metsaregister -m py.test -v
+  - coverage run --source=metsaregister -m py.test -v --vcr-record none
 
 after_success:
   - codecov

@@ -9,38 +9,6 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['134']
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
-      Origin: ['http://register.metsad.ee']
-      Pragma: [no-cache]
-      Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
-      User-Agent: ['Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/59.0.3071.115 Safari/537.36']
-      X-Requested-With: [ShockwaveFlash/26.0.0.131]
-    method: POST
-    uri: http://register.metsad.ee/avalik/flashconf.php?in=objects&layer_id=10&operation=fw
-  response:
-    body: {string: Error. No connection to database}
-    headers:
-      Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
-      Connection: [Keep-Alive]
-      Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:31:58 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=100']
-      Pragma: [no-cache]
-      Server: [Apache]
-    status: {code: 200, message: OK}
-- request:
-    body: requestArea=POLYGON+%28%28639187+6467431%2C+641313+6467431%2C+641313+6468819%2C+639187+6468819%2C+639187+6467431%29%29&srs=EPSG%3A3301
-    headers:
-      Accept: ['*/*']
-      Accept-Encoding: ['gzip, deflate']
-      Accept-Language: ['en-US,en;q=0.8,et;q=0.6']
-      Cache-Control: [no-cache]
-      Connection: [keep-alive]
-      Content-Length: ['134']
-      Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -90,14 +58,12 @@ interactions:
         6468435.97130864, 640344.575649802 6468476.85079583, 640265.46473937 6468461.45892413,
         640262.651171426 6468384.33406166, 640293.600418812 6468391.94724551, 640316.274466363
         6468422.39998091, 640345.237665789 6468435.97130864))</wkt></obj><total>7
-        objects</total><dbtime>0.159</dbtime><time>0.165</time></objects>'}
+        objects</total><dbtime>0.106</dbtime><time>0.112</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:00 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=99']
+      Keep-Alive: ['timeout=15, max=100']
       Pragma: [public]
       Server: [Apache]
     status: {code: 200, message: OK}
@@ -110,7 +76,6 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -184,9 +149,7 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:00 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=98']
+      Keep-Alive: ['timeout=15, max=99']
       Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}
@@ -199,7 +162,6 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -257,9 +219,7 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:01 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=97']
+      Keep-Alive: ['timeout=15, max=98']
       Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}
@@ -272,7 +232,6 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -346,9 +305,7 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:01 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=96']
+      Keep-Alive: ['timeout=15, max=97']
       Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}
@@ -361,7 +318,6 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -435,9 +391,7 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:02 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=95']
+      Keep-Alive: ['timeout=15, max=96']
       Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}
@@ -450,7 +404,6 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -524,9 +477,7 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:02 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=94']
+      Keep-Alive: ['timeout=15, max=95']
       Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}
@@ -539,7 +490,6 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -613,9 +563,7 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:02 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=93']
+      Keep-Alive: ['timeout=15, max=94']
       Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}
@@ -628,7 +576,6 @@ interactions:
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -702,9 +649,7 @@ interactions:
       Cache-Control: ['no-store, no-cache, must-revalidate, post-check=0, pre-check=0']
       Connection: [Keep-Alive]
       Content-Type: [text/html; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:32:03 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
-      Keep-Alive: ['timeout=15, max=92']
+      Keep-Alive: ['timeout=15, max=93']
       Pragma: [no-cache]
       Server: [Apache]
     status: {code: 200, message: OK}

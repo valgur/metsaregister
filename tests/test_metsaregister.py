@@ -25,7 +25,19 @@ empty_aoi = "POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10))"
 
 @pytest.fixture(scope='module')
 def vcr_config():
-    return dict(match_on=['uri', 'body'])
+    bad_headers = ["Authorization", "Set-Cookie", "Cookie", "Date", "Expires", "Transfer-Encoding"]
+
+    def scrub_response(response):
+        for header in bad_headers:
+            if header in response["headers"]:
+                del response["headers"][header]
+        return response
+
+    return dict(
+        match_on=['uri', 'body'],
+        filter_headers=bad_headers,
+        before_record_response=scrub_response
+    )
 
 
 @pytest.mark.vcr

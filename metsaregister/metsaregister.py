@@ -97,15 +97,13 @@ def query_layer(aoi, layer_id=10):
     -------
     geopandas.GeoDataFrame
     """
-
-    params = {'in': 'objects',
-              'layer_id': str(layer_id),
-              'operation': 'fw'}
-
-    data = {'requestArea': aoi,
-            'srs': 'EPSG:3301'}
-
+    params = [('in', 'objects'),
+              ('layer_id', str(layer_id)),
+              ('operation', 'fw')]
+    data = [('requestArea', aoi),
+            ('srs', 'EPSG:3301')]
     r = session.post('http://register.metsad.ee/avalik/flashconf.php', params=params, data=data)
+
     crs = {'init': 'epsg:3301'}
     if ">0 objects<" in r.text:
         return gpd.GeoDataFrame(crs=crs)

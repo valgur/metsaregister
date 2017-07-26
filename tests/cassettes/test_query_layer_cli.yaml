@@ -9,7 +9,6 @@ interactions:
       Connection: [keep-alive]
       Content-Length: ['134']
       Content-Type: [application/x-www-form-urlencoded]
-      Cookie: [SNS=5f3b9056c4517d6992898ebd4e2b7376]
       Origin: ['http://register.metsad.ee']
       Pragma: [no-cache]
       Referer: ['http://register.metsad.ee/avalik/flash/map.swf']
@@ -59,13 +58,11 @@ interactions:
         6468435.97130864, 640344.575649802 6468476.85079583, 640265.46473937 6468461.45892413,
         640262.651171426 6468384.33406166, 640293.600418812 6468391.94724551, 640316.274466363
         6468422.39998091, 640345.237665789 6468435.97130864))</wkt></obj><total>7
-        objects</total><dbtime>0.109</dbtime><time>0.113</time></objects>'}
+        objects</total><dbtime>0.207</dbtime><time>0.210</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Wed, 26 Jul 2017 15:31:50 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
       Keep-Alive: ['timeout=15, max=100']
       Pragma: [public]
       Server: [Apache]

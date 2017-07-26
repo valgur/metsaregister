@@ -128,16 +128,13 @@ interactions:
         ((675837.480000043 6494994.76499905, 675800.550000043 6495013.67999904, 675759.210000043
         6494954.95499905, 675776.310000043 6494946.01499904, 675792.630000043 6494937.47999905,
         675819.510000043 6494939.84999904, 675837.480000043 6494994.76499905))</wkt></obj><total>18
-        objects</total><dbtime>0.183</dbtime><time>0.188</time></objects>'}
+        objects</total><dbtime>0.149</dbtime><time>0.152</time></objects>'}
     headers:
       Cache-Control: ['max-age=1000000, must-revalidate']
       Connection: [Keep-Alive]
       Content-Type: [text/xml; charset=UTF-8]
-      Date: ['Sun, 09 Jul 2017 17:10:23 GMT']
-      Expires: ['Thu, 19 Nov 1981 08:52:00 GMT']
       Keep-Alive: ['timeout=15, max=100']
       Pragma: [public]
       Server: [Apache]
-      Set-Cookie: [SNS=97b78473c1615f140fbfedea6f8b26cf; path=/]
     status: {code: 200, message: OK}
 version: 1
