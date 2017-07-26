@@ -290,6 +290,10 @@ def parse_forest_notifications(info):
     except:
         works_s['Töö'] = work
         works_s['Maht (tm)'] = float('nan')
+
+    # Avoid abbreviations
+    works_s.rename({'Er': 'Eraldis', 'P': 'Pindala (ha)'}, inplace=True)
+
     return general_s.append(works_s)
 
 

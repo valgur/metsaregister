@@ -3,6 +3,7 @@
 import math
 from os.path import abspath, dirname, join
 
+import pandas as pd
 import geopandas as gpd
 import pytest
 from click.testing import CliRunner
@@ -21,6 +22,9 @@ aoi_notifications_path = join(fixtures_dir, 'aoi_notifications.geojson')
 aoi = _read_aoi(aoi_path)
 aoi_notifications = _read_aoi(aoi_notifications_path)
 empty_aoi = "POLYGON ((30 10, 40 40, 20 40, 10 20, 30 10))"
+
+# For consistency when comparing DataFrames
+pd.options.display.float_format = '{:.1f}'.format
 
 
 @pytest.fixture(scope='module')
@@ -72,6 +76,8 @@ def test_parse_forest_notifications():
     assert len(ret) > 0
     assert ret['Töö'] == 'lageraie'
     assert ret['Maht (tm)'] == 132
+    assert 'Er' not in ret.index
+    assert 'P' not in ret.index
 
     info = info.replace('132 tm', 'xxx')
     ret = parse_forest_notifications(info)
@@ -135,7 +141,7 @@ def test_query_layer_cli(tmpdir):
     gdf_result = gpd.read_file(result_path)
     assert gdf_result.crs == {'init': 'epsg:3301'}
     gdf_expected = gpd.read_file(expected_result_path)
-    assert str(gdf_expected) == str(gdf_result)
+    assert gdf_expected.to_string() == gdf_result.to_string()
 
 
 @pytest.mark.vcr
@@ -161,7 +167,7 @@ def test_forest_stands_cli(tmpdir):
     gdf_result = gpd.read_file(result_path)
     assert gdf_result.crs == {'init': 'epsg:3301'}
     gdf_expected = gpd.read_file(expected_result_path)
-    assert str(gdf_expected) == str(gdf_result)
+    assert gdf_expected.to_string() == gdf_result.to_string()
 
 
 @pytest.mark.vcr
@@ -177,4 +183,4 @@ def test_forest_notifications_cli(tmpdir):
     gdf_result = gpd.read_file(result_path)
     assert gdf_result.crs == {'init': 'epsg:3301'}
     gdf_expected = gpd.read_file(expected_result_path)
-    assert str(gdf_expected) == str(gdf_result)
+    assert gdf_expected.to_string() == gdf_result.to_string()
