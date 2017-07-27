@@ -23,7 +23,8 @@ requirements = [
     'tqdm',
     'geopandas',
     'pandas',
-    'shapely'
+    'shapely',
+    'pygeoif'
 ]
 
 setup_requirements = [
