@@ -7,6 +7,7 @@ from time import sleep
 
 import geopandas as gpd
 import pandas as pd
+import pygeoif.geometry
 import requests
 import shapely.wkt
 import xmltodict
@@ -116,9 +117,27 @@ def query_layer(aoi, layer_id=10):
         df = df.drop('@label', axis=1)
     if 'url' in list(df):
         df['url'] = df['url'].map(unquote)
-    geometry = df['wkt'].map(shapely.wkt.loads)
+
+    geometries = []
+    for wkt in df['wkt']:
+        if wkt.startswith('GEOMETRYCOLLECTION'):
+            # GeometryCollection type seems to be more of a bug in the dataset
+            # With erroneous LineString objects appearing inside it.
+            # It's better to convert it to a MultiPolygon.
+            wkt = (re.sub(r'LINESTRING\s*\(([^)]+\))(?:,\s*)?', '', wkt)
+                   .replace('POLYGON', '')
+                   .replace('GEOMETRYCOLLECTION', 'MULTIPOLYGON'))
+        try:
+            geometries.append(shapely.wkt.loads(wkt))
+        except:
+            # A workaround for cases like
+            # IllegalArgumentException: Points of LinearRing do not form a closed linestring
+            # that Shapely refuses to handle.
+            geometries.append(
+                shapely.geometry.geo.shape(pygeoif.geometry.from_wkt(wkt))
+            )
     df = df.drop('wkt', axis=1)
-    gdf = gpd.GeoDataFrame(df, crs=crs, geometry=geometry)
+    gdf = gpd.GeoDataFrame(df, crs=crs, geometry=geometries)
     return gdf
 
 
