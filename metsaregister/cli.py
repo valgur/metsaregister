@@ -18,9 +18,10 @@ def _read_aoi(aoi_path):
 
 def _add_crs(json):
     return json.replace(
-        '"type": "FeatureCollection",',
-        '"type": "FeatureCollection", '
-        '"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3301" } },')
+        '{',
+        '{\n"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::3301" } }, ',
+        1
+    )
 
 
 @click.group()

@@ -75,8 +75,11 @@ session.headers.update({
 def get_layers():
     """Returns the list of available layers as a dictionary of layer name -> layer ID."""
     layers = OrderedDict()
-    layers_xml = session.get("http://register.metsad.ee/avalik/flashconf.php?in=layers").content
-    root = etree.fromstring(layers_xml)
+    r = session.get("http://register.metsad.ee/avalik/flashconf.php?in=layers")
+    r.raise_for_status()
+    if 'Error' in r.text:
+        raise RuntimeError('Server raised an error: ' + r.text[:1000])
+    root = etree.fromstring(r.content)
     for layer in root.xpath('//layer'):
         layers[layer.get('name')] = int(layer.get('Lid'))
     return layers
@@ -101,9 +104,12 @@ def query_layer(aoi, layer_id=10):
     params = [('in', 'objects'),
               ('layer_id', str(layer_id)),
               ('operation', 'fw')]
-    data = [('requestArea', aoi),
+    data = [('requestArea', aoi.upper()),
             ('srs', 'EPSG:3301')]
     r = session.post('http://register.metsad.ee/avalik/flashconf.php', params=params, data=data)
+    r.raise_for_status()
+    if 'Error' in r.text:
+        raise RuntimeError('Server raised an error: ' + r.text[:1000])
 
     crs = {'init': 'epsg:3301'}
     if ">0 objects<" in r.text:
@@ -116,7 +122,7 @@ def query_layer(aoi, layer_id=10):
     if '@label' in list(df):
         df = df.drop('@label', axis=1)
     if 'url' in list(df):
-        df['url'] = df['url'].map(unquote)
+        df.loc[df['url'].notnull(), 'url'] = df['url'].dropna().map(unquote)
 
     geometries = []
     for wkt in df['wkt']:
@@ -146,7 +152,11 @@ def get_info(url):
     """Fetch the content of a feature's information page."""
     if 'metsad.ee' not in url:
         url = urljoin('http://register.metsad.ee/avalik/', url)
-    txt = session.get(url).text
+    r = session.get(url)
+    r.raise_for_status()
+    txt = r.text
+    if 'Error' in txt:
+        raise RuntimeError('Server raised an error: ' + r.text[:1000])
     txt = txt.replace('\r\n', '\n').strip()
     txt = re.sub('\s*<script[^>]*>.+</script>\s*', '', txt, flags=re.DOTALL)
     txt = txt.replace("""
