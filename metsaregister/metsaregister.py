@@ -306,19 +306,20 @@ def parse_forest_notifications(info):
         # Extract the single highlighted row
         if row.get('class') != ['selected_row'] and not row.find('th'):
             row.extract()
-    works_s = (pd.read_html(StringIO(str(tables[1])), header=0, thousands=' ', decimal=',')[0]
+    works_s = (pd.read_html(StringIO(str(tables[1])), header=0, thousands=' ', decimal=',',
+                            converters={'Kvartal': lambda x: x})[0]
                .iloc[0])
-    # Make the Töö field more useful by extracting the amount
+    # Make the Töö field more useful by extracting the amount and number of seed trees left
     work = works_s['Töö']
-    try:
-        work_type, amount, unit = work.split()
-        if unit != 'tm':
-            raise AssertionError()
+    works_s['Maht (tm)'] = float('nan')
+    works_s['Seemnepuid'] = float('nan')
+    if ' tm' in work:
+        m = re.search(r'(\D+) +(\d+) +tm(?: +\(seemnepuud +(\d+) +tk\))?', work)
+        work_type, amount, seed_trees = m.groups()
         works_s['Töö'] = work_type
         works_s['Maht (tm)'] = float(amount)
-    except:
-        works_s['Töö'] = work
-        works_s['Maht (tm)'] = float('nan')
+        if seed_trees:
+            works_s['Seemnepuid'] = float(seed_trees)
 
     # Avoid abbreviations
     works_s.rename({'Er': 'Eraldis', 'P': 'Pindala (ha)'}, inplace=True)
